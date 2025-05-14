@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  color: #f1f1f1;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.input-bar {
+  display: flex;
+  align-items: center;
+  background: #1b1b1b;
+  border-radius: 12px;
+  padding: 0 16px;
+  margin-bottom: 20px;
+  border: 1px solid #2a2a2a;
+}
+
+.input-bar span {
+  font-size: 18px;
+  color: #888;
+  margin-right: 10px;
+}
+
+.input-bar input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 16px 0;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+}
+
+.input-bar input::placeholder {
+  color: #777;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 12px;
+}
+
+button:hover {
+  background-color: #155ec2;
+}
+
+.loading {
+  margin: 20px 0;
+  padding: 16px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.evidence-report {
+  background: #141414;
+  padding: 24px;
+  margin-top: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 0 1px #2a2a2a;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 600;
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.evidence-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.evidence-item {
+  background: #1f1f1f;
+  padding: 16px;
+  border-left: 4px solid #1a73e8;
+  border-radius: 10px;
+  color: #e0e0e0;
+  flex: 1 1 300px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 0 1px #2a2a2a;
+}
+
+.evidence-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border-left-color: #42a5f5;
+}
+
+.reference {
+  display: block;
+  font-size: 0.85em;
+  color: #999;
+  margin-top: 8px;
+}
+
+.conclusion-box {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 32px;
+  border: 1px solid #333;
+}
+
+.conclusion-box h3 {
+  margin-top: 0;
+  color: #d4d4d4;
+}

@@ -1,0 +1,912 @@
+[
+  {
+    "title": "khn",
+    "abstract": "INTRODUCTION: Anti-vaccination agitation is on the rise, both in-person and online, notably on social media. The Internet has become the principal source of health-related information and vaccines for an increasing number of individuals. This is worrisome since, on social media, any comment, whether from a medical practitioner or a layperson, has the same weight. As a result, low-quality data may have a growing influence on vaccination decisions for children. \nOBJECTIVES: This paper will evaluate the scale and type of vaccine-related disinformation, the main purpose was to discover what caused vaccine fear and anti-vaccination attitudes among social media users. \nMETHODS: The vaccination-related data used in this paper was gathered from Reddit, an information-sharing social media network with about 430 million members, to examine popular attitudes toward the vaccine. The materials were then pre-processed. External links, punctuation, and bracketed information were the first things to go.  All text was also converted to lowercase. This was followed by a check for missing data. This paper is novel and different as Matplotlib, pandas, and word cloud was used to create word clouds and every result has a visual representation. The Sentiment analysis was conducted using the NLTK library as well as polarity and subjectivity graphs were generated. \nRESULTS: It was discovered that the majority population had neutral sentiments regarding vaccination. Data visualization methods such as bar charts showed that neutral sentiment outnumbers both positive and negative sentiment. \nCONCLUSION: Prevalent Sentiment has a big influence on how people react to the media and what they say, especially as people utilize social media platforms more and more. Slight disinformation and/or indoctrination can quickly turn a neutral opinion into a negative one.",
+    "authors": [
+      "Tarandeep Kaur Bhatia",
+      "Samagya Rathi",
+      "T. Singh",
+      "Biswayan Naha"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/2994b611b2d6f822631bc7bb80ff1abb9101b535"
+  },
+  {
+    "title": "Debunking COVID-19 Vaccine Myths using ChatGPT",
+    "abstract": null,
+    "authors": ["Shastine Catherine Ali"],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/95a8c6f93ccdffc347ce9c8f62ced8ed8228f0ee"
+  },
+  {
+    "title": "Belief in vaccine myths and vaccine uptake in Utah during the COVID-19 pandemic",
+    "abstract": null,
+    "authors": [
+      "O. Omisakin",
+      "J. Ulrich‐Schad",
+      "Aaron Hunt",
+      "Jennifer E. Givens",
+      "Mitchell Beacham"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/0c017f4a5856eddc01cdd4a4e58150be9aab080f"
+  },
+  {
+    "title": "An Efficient Approach to Validate COVID-19 Related Vaccine Myths Utilizing LDA Algorithm",
+    "abstract": "Scientists from the whole world have been working their heart and soul to invent the COVID-19 vaccine. When they are succeed to make the vaccine, various rumors are spread. COVID-19 situation has made our world standstill. When the vaccine came out for the first time, people were enthusiastic to take a shot. But the myth, rumors about vaccination also followed the success. In this paper, we have tried to validate the COVID-19 related vaccine myth and rumors with the help of the LDA algorithm. We have used data mining, text mining and sentiment analysis for the experiment. The outcome of our experiment has shown that most people are positive about vaccination but the negative impact is also there. Our experiment has found that most of the people are talking about “vaccine”, “people”,” moron” and “ever”. We have proposed a technique to validate this kind of vaccine myth. LDA algorithms have been able to predict and validate the myth up to 70% compared to other frameworks out there. Promising efficiency is exhibited by our experimental result.",
+    "authors": ["T. J. Roy", "Md. Ashiq Mahmood", "Aninda Mohanta"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/3d5b3a4d1da867615e6e9c5b9b8e975772d4396e"
+  },
+  {
+    "title": "COVID-19 Vaccine, Myths, and Facts",
+    "abstract": "Coronavirus pandemic has taken millions of lives worldwide. There was a period with no hope, but as time passed, humanity saw hope in the form of the vaccine. The good news is there finally, as a result of a collaboration between scientists and pharmaceutical companies many vaccines have been developed and massive immunization programmes have been in effect. However, there has been some misinformation regarding COVID-19 vaccine formulations, uses, side effects, and effectiveness. Since the day of vaccine development, some people are excited to get vaccinated whereas others are afraid of having it. There are certain myths about the COVID-19 vaccine which as a researcher in the field of microbiology/immunology, I feel need some clarification. First of all, it is common thinking that the vaccine has been developed in less time and is still in phase three trials so it might be unsafe for clinical use. This is not true, the fact is that COVID-19 vaccine has gone through all the essential steps of vaccine formation and the same food and drug administration processes have been ensured for its safety and efficacy too.There are other myths too as if this vaccine contains a tracking device and it might change human DNA. Again there is no truth in it. There is an optional version of this product which contains a microchip within the syringe label; the purpose is to confirm the vaccine dose’s origin. The chip itself is not injected into a recipient of the vaccine. Similarly, a vaccine will not change DNA; its function is to build the immune system by creating antibodies against the antigen that is present in the vaccine. Another common myth is that vaccine has dangerous side effects. Well, common side effects like headache, myalgia, and chills have been experienced by the volunteers, however, severe allergic reactions were not observed in healthy individual volunteers. This is why people with a history of allergy to any drug, food, chemical, etc. have been excluded from the vaccine trials. Some other questions are also raised like vaccine may affect the fertility of women. The fact is that there is an amino acid sequence shared between viral spike protein and syncytin-1 (protein in the placenta), however, it is too small to initiate an immune response that can affect pregnancy. Another myth in people’s minds is that individuals, who have had a natural infection of COVID-19 disease, do not need to get vaccinated. Again the fact, as clear from evidence across the globe, clears that the natural immunity against COVID-19 does not last longer hence and it is advised to get vaccinated when it is your turn.It is also a common perception that wearing a mask is no longer needed once you are vaccinated. Wearing a mask, hand washing, and social distancing are required not only for COVID-19 protection, as well as these precautions, protect us from many other communicable diseases too. One important fact about COVID-19 vaccine is that no one can develop COVID-19 disease from the vaccine since it does not contain a live virus. However, it is possible to get infected with the virus before the vaccine has had time to protect human bodies by the formation of antibodies. Some other myths are also needed to be clarified here like people who have fewer co-morbid conditions do not develop severe symptoms of the disease, hence do not need to be vaccinated, the answer is simple, even if one is relatively safe, and one still can acquire and spread the disease to others. So it is important to get vaccinated.Another myth suggests that certain blood groups are least likely to develop severe symptoms of the diseases hence vaccine is not essential for such people. Again, no evidence is available that supports this myth. Similarly, this vaccine or any other FDA-approved vaccine can make you positive for viral detection test in PCR.Research on the COVID-19 vaccine will continue and will reveal more facts and dissolve many myths. It is advised to participate in getting yourself vaccinated to protect not only you but your family and community as well.",
+    "authors": ["S. Saleem"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/484ccf924f242b082e71752ff0b8cd80948cd559"
+  },
+  {
+    "title": "COVID-19 vaccine rumour and resistance in Indonesia: Analysing vaccine hesitancy and cultural myths circulated on online platforms",
+    "abstract": null,
+    "authors": [
+      "Rachmah Ida",
+      "Sri Endah Kinasih",
+      "S. Febriyanti",
+      "R. Puspa",
+      "Muhammad Saud",
+      "Mohd Syuhaidi Abu Bakar"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/26db3bffdb6b66625b714febf92b8986441f5d8f"
+  },
+  {
+    "title": "Strategies to Address COVID-19 Vaccine and Pregnancy Myths",
+    "abstract": "Abstract Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) poses risks to pregnant women and their infants. The spread of misinformation about COVID-19 vaccination is a barrier to optimizing vaccination rates among women of childbearing age. We conducted an environmental scan to identify misinformation about COVID-19 vaccination, pregnancy, and fertility, and a review to identify evidence to refute misinformation and strategies to correct and prevent the spread of misinformation. Seven identified themes of misinformation are: the vaccine causes female infertility; can cause miscarriage; and can decrease male fertility; mRNA vaccines attack the placenta; pregnant and breastfeeding persons should not get the vaccine; the vaccine can change menstrual cycles; and vaccinated people can spread infertility symptoms to unvaccinated people. Strategies that can be implemented by social media platforms to help prevent misinformation spread and correct existing health misinformation include improving information regulation by modifying community standards, implementing surveillance algorithms, and applying warning labels to potentially misleading posts. Health services organizations and clinicians can implement health misinformation policies, directly recommend vaccinations, provide credible explanations and resources to debunk misinformation, educate patients and populations on spotting misinformation, and apply effective communication strategies. More research is needed to assess longer-term effects of vaccination among women of childbearing age to strengthen the defense against misinformation and to evaluate strategies that aim to prevent and correct misinformation spread about COVID-19 vaccinations. Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) poses risks to pregnant women and their infants. The spread of misinformation about COVID-19 vaccination is a barrier to optimizing vaccination rates among women of childbearing age. This environmental scan identifies misinformation about COVID-19 vaccination, pregnancy, and fertility, reviews evidence to refute misinformation, and offers strategies nurses can use to correct and prevent the spread of misinformation.",
+    "authors": ["Heather E Berkowitz", "J. C. Vann"],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/e472363142e3a3e99e6f0bdc98a1316f3dbfb658"
+  },
+  {
+    "title": "Covid vaccine dilemma curbing the herd immunity in India- Jab or no jab?",
+    "abstract": "After the devastating second wave of COVID-19, with the rapid increase in the number of new cases in many states of India marking the beginning of a probable third wave of COVID-19, our best bet is taking a jab to protect against COVID-19. Currently, licensed vaccines are found to be reasonably safe and effective. The second wave of COVID-19 was devastating, but it's a silver lining to note that most of the individuals who had taken the jab recovered with mild infections, and the hospitalization rates among jabbed individuals were meager.  Various rumours related to the efficacy, safety, content, and side effects of the vaccine in India had caused a plunge in the vaccine acceptance rate leading to hesitancy and carelessness among the Indian population. This is a critical time for facts, not fear or rumors. This review provides an insight into the myths, pros and cons, and efficacy of the available vaccines.",
+    "authors": [
+      "Srinidhi Rai",
+      "Tirthal Rai",
+      "S. H",
+      "Shamantha Rai B.",
+      "Rithesh Pakkala P."
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/0da31de6bf400bbf97ba95353ba8e8be7435cbff"
+  },
+  {
+    "title": "Frequency and Pattern of Myths and Misconception regarding Covid- 19 Vaccine in General Population",
+    "abstract": "Objective: To determine the frequency and pattern of myths and misconceptions regarding COVID-19 vaccine in the general population at Isra University Hospital Hyderabad Material and Methods: This cross-sectional survey base study was conducted at the Isra University Hospital Hyderabad, during a period of six months from August 2021 to January 2022. All the patients who visited the OPD and their attendants of any age or gender, were included. All the subjects were properly counseled that their privacy was fully secured and their name and contact numbers were taken. After obtaining sociodemographic information, the participants were interviewed regarding COVID-19 infection in the past, previous vaccination history for diseases other than COVID-19, conceptions, and myths regarding COVID-19 vaccination, acceptance of COVID-19 vaccination, reasons to vaccinate for COVID-19, and reasons not to vaccinate for COVID-19. All the information was gathered via study proforma including questioner and SPSS version 26 was used for the purpose of data analysis. Results: A total of 145 individuals of either gender were studied regarding myths and misconceptions of COVID-19 vaccine, their average age was 27.71+9.86 years and females were in majority 62.1%. Among the study population, doctors, private employee and housewives were the most common as 44.1%, 11%, 11.7% and 9% respectively. Most of the cases 62.1% were unmarried. According to the myths and misconceptions, 8.3% said it can affect fertility, 23.4% had no trust on its effectiveness and safety, 14.5% said it is an artificial infection procedure, 11% were afraid from its dangerous side effects, 3.4% said the vaccine will change their DNA, 13.8% said it is a controversial substance and 6.9% afraid that they will die within 2 years. 24.1% cases heard myths from family, 24.8% heard from friends and 51% heard by social media. 17.2% had idea that it is an international conspiracy and 4.8% said this may cause sexual dysfunction and 4.8% said it is a procedure of implanting microchip to control them. Conclusion: There were several misconceptions in the general population, most myths like effects of male fertility, distrust on vaccine efficacy, they will be infected artificially, fear of dangerous side effects, controversial substances were observed to be the commonest myths and misconceptions regarding the COVID-19 vaccine in the general population. Above ideas were adopted mostly by the friends and social media. Keywords: Covid-19, vaccine, misconception",
+    "authors": [
+      "S. Jatoi",
+      "M. Ali",
+      "S. Maheshwari",
+      "M. Zaman",
+      "M. A. Bawany",
+      "H. Qureshi"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/a7b9e6fe1e867358722e15b1b4b752e4f944d212"
+  },
+  {
+    "title": "Myths and conspiracy theories on vaccines and COVID-19: Potential effect on global vaccine refusals",
+    "abstract": null,
+    "authors": [
+      "Irfan Ullah",
+      "K. Khan",
+      "M. J. Tahir",
+      "A. Ahmed",
+      "H. Harapan"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/ab1d3704c8df88b1d44f57ecbc4b8230e2d4087d"
+  },
+  {
+    "title": "Coronavirus (COVID-19): Novel, Facts, Myths, immune system, and Corona Vaccine Types",
+    "abstract": null,
+    "authors": ["A. Hussein", "Alaa Alwan"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/8524615247966fba38cc01e0dc30bca22d161e84"
+  },
+  {
+    "title": "COVID-19 Vaccine and IVF outcomes; Myths versus facts",
+    "abstract": null,
+    "authors": ["S. Nasab", "S. Abhari"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/8efe2bc662c4d53fc71d52d9d9e4746af67c2261"
+  },
+  {
+    "title": "Myths Surrounding Covid-19 Vaccine Candidates: A Guide to Fight Back",
+    "abstract": "The Covid-19 pandemic has propelled public health officials into the socio-political sphere due to the need for constantly updated information on behalf of the public. However, many individuals choose to acquire health information/guidance from indirect sources, including social media, news organizations, and general word of mouth. As a result, myths and false narratives about various essential health topics, including vaccine characteristics and protective measures, can circulate un-verified between millions of individuals with little recourse. These can further widen the “gap” between public knowledge and current research, resulting in lower vaccine uptake (vaccine hesitancy) and protective measure adherence. Such actions have profound implications as nations attempt to achieve herd immunity and end the pandemic once and for all. Thus, it is vital that public health officials, health providers, researchers, and the general public be able to differentiate common Covid-19 myths from facts and be prepared to approach such interactions via sound reasoning and research-based evidence. This chapter will serve as a guide to accomplish just that.",
+    "authors": ["J. Zizzo"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/bb6b6b39495bc46fd427444c7a70d504266c6d47"
+  },
+  {
+    "title": "Psychological hesitance and myths related to COVID-19 vaccine is a hindrance in vaccination process in Pakistan",
+    "abstract": "The entire world is dealing with this pandemic of COVID-19 since December 2019. And several variants of this SARS-COV2 virus have occurred and they have more impact on the increase in the mortality rate and it has now increased to more than 5 percent up till now which is quite an alarming state. But despite this, every day increasing mortality rate the vaccine which is now available for use is not considered to be effective by the general population due to their self-created myths and this leads them to be reluctant to the vaccine. And that’s why the vaccination process is still far slow as we know that the number of cases is getting increased day by day the immunization by the vaccine is much important to cope up with this challenging pandemic. There is a need to avoid the psychological considerations for the vaccination because vaccine provision is important to provide the maximum number of individuals with the vaccine so the more complex states of this variant form of viral infection could be deal with in a more sophisticated manner.",
+    "authors": ["Noor Ain", "Noor Ul-ain", "Saleeha Sajjad"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/76ee6bad44793cad0335f59510e5d4c46e3a599b"
+  },
+  {
+    "title": "Myths and conspiracy theories on vaccines and COVID-19: Potential effect on global vaccine refusals",
+    "abstract": null,
+    "authors": [
+      "Irfan Ullah",
+      "K. Khan",
+      "M. J. Tahir",
+      "A. Ahmed",
+      "H. Harapan"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/8823cd3ff608e3c60bc264b469235b8dde46dbcc"
+  },
+  {
+    "title": "Will COVID-19 Vaccine Genetically Modify Humans? Facts and Myths",
+    "abstract": "The vaccines being developed to protect humans from the Coronavirus pandemics have also been developed in the past to save humans from many other pandemics. The current COVID‐19 vaccine research and development involves people from all over the world, therefore raising many questions which must be addressed by all stakeholders. No doubt, it is the need of the day to provide an effective vaccine to control the pandemics that must be balanced with incorporation of the research ethics. In any event, the safety and well‐being of research subjects must be protected, especially that of vulnerable subjects. The consent of the population is very important and usage must be addressed through transparent sharing of information. The current review article will try to unveil some facts and myths related to the safe use of this vaccine against SARS-CoV-2.",
+    "authors": ["M. Bukhari", "S. Zain", "J. Akram"],
+    "year": 2020,
+    "url": "https://www.semanticscholar.org/paper/1da17b912eb649f3e3233f8bb7b718097fc71fa4"
+  },
+  {
+    "title": "A qualitative inquiry on drivers of COVID-19 vaccine hesitancy among adults in Kenya",
+    "abstract": "COVID-19 vaccination rates have been low among adults in Kenya (36.7% as of late March 2023) with vaccine hesitancy posing a threat to the COVID-19 vaccination program. This study sought to examine facilitators and barriers to COVID-19 vaccinations in Kenya. We conducted a qualitative cross-sectional study in two purposively selected counties in Kenya. We collected data through 8 focus group discussions with 80 community members and 8 in-depth interviews with health care managers and providers. The data was analyzed using a framework approach focusing on determinants of vaccine hesitancy and their influence on psychological constructs. Barriers to COVID-19 vaccine uptake were related to individual characteristics (males, younger age, perceived health status, belief in herbal medicine, and the lack of autonomy in decision making among women ‐ especially in rural settings), contextual influences (lifting of bans, myths, medical mistrust, cultural and religious beliefs), and COVID-19 vaccine related factors (fear of unknown consequences, side-effects, lack of understanding on how vaccines work and rationale for boosters). However, community health volunteers, trusted leaders, mandates, financial and geographic access influenced COVID-19 vaccine uptake. These drivers of hesitancy mainly related to psychological constructs including confidence, complacency, and constraints. Vaccine hesitancy in Kenya is driven by multiple interconnected factors. These factors are likely to inform evidence-based targeted strategies that are built on trust to address vaccine hesitancy. These strategies could include gender responsive immunization programs, appropriate messaging and consistent communication that target fear, safety concerns, misconceptions and information gaps in line with community concerns. There is need to ensure that the strategies are tested in the local setting and incorporate a multisectoral approach including community health volunteers, religious leaders and community leaders.",
+    "authors": [
+      "S. Orangi",
+      "Daniel Mbuthia",
+      "E. Chondo",
+      "Carolyne Ngunu",
+      "E. Kabia",
+      "J. Ojal",
+      "E. Barasa"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/7de255ce65c7ff5e6cd0b46f9ea7002b105314b3"
+  },
+  {
+    "title": "A cross-sectional survey on myths related to administration of COVID-19 vaccine among hospital staff employed in supportive services category of hospital in Indore (M.P.)",
+    "abstract": null,
+    "authors": ["Prof. Dr. M.S. Vinsi", "Mr.Vipin Chandran"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/5342671b6650fcb9967faa7ba7d27d189733835d"
+  },
+  {
+    "title": "A Qualitative Study of the Views of Ethnic Minority Healthcare Workers Towards COVID-19 Vaccine Education (CoVE) to Support Vaccine Promotion and Uptake",
+    "abstract": "Ethnic minority healthcare workers (EMHCW) are at high risk of COVID-19 infection and adverse health outcomes, but vaccine uptake is low among ethnic minority communities, including EMHCW. We explored the views of EMHCW towards COVID-19 Vaccine Education (CoVE), a digital training resource to improve knowledge and confidence for promoting the COVID-19 vaccine. Thirty EMHCW completed CoVE, then participated in a semi-structured qualitative interview. Principles of framework analysis were used to deductively analyse data using concepts from the Kirkpatrick New World Model of training evaluation. CoVE was viewed to be engaging, accessible and relevant to EMHCW. This training increased EMHCW perceived knowledge and confidence to provide evidence-based information to others, dispel myths, and reduce vaccine hesitancy. Participants reported changes in vaccine promotion behaviours and vaccine uptake. CoVE could be used to help improve vaccine literacy among EMHCW, enhance health communications about vaccines, and ultimately help facilitate uptake of occupational vaccination programs.",
+    "authors": [
+      "H. Blake",
+      "Vinishaa Premakumar",
+      "Abishaa Premakumar",
+      "Aaron Fecowycz",
+      "Sala Kamkosi Khulumula",
+      "Wendy Jones",
+      "S. Somerset"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/a86c18dbc24ff66758fef243507441c1af71c1ae"
+  },
+  {
+    "title": "Myths Pertaining to COVID-19 Vaccination in Pregnant Women Attending a Rural Tertiary Care Hospital",
+    "abstract": "Background The outbreak of the COVID-19 pandemic led to the rise of various social issues apart from medical ones. Several myths regarding COVID-19 vaccination were found worldwide, and some of the common ones identified were abortions, birth defects, bad pregnancy outcomes such as abortions, ectopic pregnancy, risk of infertility, and irregular menstrual cycles. Although no scientific theories or data backed those myths, pregnancy was still omitted from trials for a long time as any drug/vaccine given during pregnancy may affect the fetus. Objective The objective of this study was to evaluate the vaccination status of pregnant women (PW) regarding COVID-19 and explore the factors influencing those who chose not to get the initial dose, second dose, or booster dose. Methodology A total of 747 PW were enrolled in the current study. Information related to sociodemographic data, clinical data, COVID-19 vaccine status, and rationale for choosing not to receive the COVID-19 vaccination was analyzed using a prestructured and validated Performa. Results The mean age and gestational age of the women enrolled for the study was 27.39 ± 3.75 years and 30.21 ± 7.30 weeks, respectively. The first dose of the COVID-19 vaccine was not received by 40 (5.4%) subjects, and the second dose was pending in 142 (19%) women, and none of them received booster dose. The prevalent cause for abstaining from receiving the COVID-19 vaccination was the fear of abortion in 179 (24%) subjects, followed by the fear of vaccine-related side effects in 142 (19%) subjects. There was a significant correlation between acceptance of COVID-19 vaccination and education and employment. Conclusion The present study indicated that most women have taken the COVID-19 vaccine before conception and that none received the first, second, or booster dose during pregnancy, even if it was due. Women need to be educated about the benefits of vaccination to enhance the compliance rate of COVID-19 vaccination and reduce COVID-19-related morbidity and mortality during pregnancy.",
+    "authors": [
+      "Harinder Kaur",
+      "Monika Jindal",
+      "Dr. Sameer Singh Faujdar",
+      "S. Minhas",
+      "Nitin Rathi",
+      "Navneet Kaur"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/377783588458c12f847d172ee36962d373405fce"
+  },
+  {
+    "title": "Social Media, Fake News and Covid-19 Vaccine Hesitancy in Zimbabwe",
+    "abstract": "\n This exploratory paper uses online ethnography to analyse how fake news on social media shaped perceptions and cognitions about Covid-19 vaccines in Zimbabwe. It explores the emergence of social media as an important space for instilling vaccine hesitancy in the context of Covid-19. The paper focuses on how memes, jokes, fake news stories and reports that were shared and consumed on platforms such as WhatsApp, Facebook, Twitter, and YouTube shaped the health-seeking behaviour of people in the context of Covid vaccines in Zimbabwe. The findings show that most people do not trust the government or health institutions. This distrust means they turn to unofficial online sources of information that fuel myths, conspiracies, rumours and gossip and cause fear, panic and vaccine hesitancy. Most citizens resorted to social media to update each other on the efficacy of vaccines and the pros and cons of getting inoculated, highlighting the scepticism surrounding Covid-19 vaccines in Zimbabwe.",
+    "authors": ["M. Chiweshe", "Gerald Dandah"],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/0141c52ea6992649824a763c94479cc33279e7c1"
+  },
+  {
+    "title": "Knowledge, myths and acceptability of covid-19 vaccination among expectant women attending out- patient department of the private and public sector hospitals",
+    "abstract": "This cross-sectional study was conducted to explore pregnant women's knowledge, attitudes, and acceptance of the COVID-19 vaccination. A total of 237 pregnant women were included from January 2021 till December 2021. After enrolment in the hospitals and before antenatal checkup all patients sent for COVID-19 vaccinations, those who had reservations regarding vaccination in pregnancy and willing to participate and share their knowledge were included. Data was collected using a pre-designed structured proforma. There were 84 pregnant women (35.4%) from rural residences, 67.1% with middle socioeconomic status, 84.8% were literate, 83.5% with 1 -3 antenatal visits, 46.8% with 21 – 26 weeks of gestational age, the mean gestational age of samples was 21.7 weeks. The source of information regarding hazards of COVID vaccine during pregnancy, there were 35 (44.3%) reported family, 24 (30.4%) reported friends, 15 (19%) reported healthcare providers and 5 (6.3%) reported media as the main source of information regarding hazards of COVID vaccine in pregnancy. Most of the expectant ladies who has misconceptions and were worried about birth defects and long-term effects on babies, the safety and prevention of COVID infection by the vaccine had information from the family. ",
+    "authors": [
+      "Dr. Zahida Parveen Brohi",
+      "Uzma Parveen Brohi",
+      "Aneela Sadaf Brohi",
+      "Roohi Nigar Ujjan",
+      "Ifat Baloch"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/105c2c1fb3a7487bd455a54e72beab8b494e1a85"
+  },
+  {
+    "title": "Observed Adverse Effects of Sinopharm COVID-19 Vaccine in Healthcare Workers",
+    "abstract": "Abstract: Background: Covid-19 was first identified in Wuhan China in December 2019, and rapidly spread world over. Vaccine was always thought as first line defence against viral infections, and Covid was no exception. Although developed through different technologies, Pakistan got its share of Sinopharm from China and vaccination started in February 2021, with priority for Healthcare workers. There were lot of myths and hesitancy related with the adverse effects and urgency in approving these vaccines. Addressing adverse effects in post vaccinated population hence, became an important matter. Objective: Aim of this study was to observe the adverse effects of this vaccine in Pakistani population, to assess safety and develop confidence in Healthcare Workers. Materials and Methods: A cross-sectional Observation study was carried out in vaccinated Healthcare Professional through Non-probability purposive sampling over a period of one month. A team collected data directly, as well as on the telephone call. A Google form was also generated and sent. Information was collected and analysed on IBM-SPSS 23.0 Result: Majority of the participants were less than 55 years with female dominance. Among co-morbidities, hypertension was most common, followed by diabetes. In local and systemic adverse effects, pain and fatigue were most common, followed by muscle weakness, fever and headache respectively. These effects were also more common after first injection. Conclusion: Results favor that people should be more careful after the first dose as more adverse effects were felt after that. This vaccine has a good safety profile as no major adverse effects were noticed. It was also considered safe for patients with co-morbidities.",
+    "authors": [
+      "Khadija Muneer",
+      "Nimra Tufail",
+      "Muhammad Imran Hassan Khan",
+      "Sadia Inam",
+      "S. Ayub"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/e4568470e622a88bbdd68afb02b47e0c60458aae"
+  },
+  {
+    "title": "Assessment of adverse events among healthcare workers following the Janssen COVID-19 vaccine in Tigray, Ethiopia",
+    "abstract": "Apart from the inequality in vaccination, war zones and areas where communication is disrupted are affected by myths and misconceptions about COVID-19 vaccines, heightening vaccine hesitancy. Local data on adverse events of the vaccines and their mildness can increase confidence and acceptance of the vaccines in the respective population. In areas of conflict and communication blackouts, the perception of the vaccines by health workers is of paramount importance as public health recommendations may not reach the public. Therefore, the scientific evaluation of adverse events following COVID-19 vaccination in such areas is invaluable. This cross-sectional, facility-based study was conducted using a structured, interviewer-administered questionnaire to assess the adverse events experienced by healthcare workers who received the Janssen COVID-19 vaccine. The sample was divided proportionally to the number of vaccinated healthcare workers for the different healthcare professions, and participants were then randomly selected from each profession. Prior to data collection, a pilot test was conducted with 5% of the sample size outside the selected hospital. The study was conducted using a structured questionnaire completed by an interviewer to assess adverse events in 442 healthcare workers who had received the Janssen COVID-19 vaccine between July 11 and 25, 2022. The study period was from August 15 to September 15, 2022. A significant number of healthcare workers [366 (83.3%); 95% CI 79.5%, 86.5%] experienced at least one adverse event. Nearly 90% of participants reported that the adverse events were mild to moderate. Pain at the injection site [307 (69.5%); 95% CI 65.0%, 73.6%] and headache [247 (55.9%); 95% CI 51.2%, 60.4%] were the most common local and systemic adverse events, respectively. Two HCWs experienced anaphylactic reaction. Younger age was significantly associated with the occurrence of adverse events. We deciphered that the adverse events reported by the study participants were not different from the typically occurring vaccine-related adverse reactions, and therefore concluded that post-vaccination reactions in healthcare workers were minor. Although vaccination in Tigray is currently stalled due to the siege, responsible stakeholders should develop a mechanism to track population-wide adverse events once the vaccines start to rollout.",
+    "authors": [
+      "Bisrat Tesfay Abera",
+      "H. Teka",
+      "Ephrem Berhe",
+      "Marta Abrha Gebru",
+      "Dawit Zenebe",
+      "Hiluf Ebuy Abraha",
+      "A. Hailu"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/801e24f692d5f75d148d1ded1786132ac258855a"
+  },
+  {
+    "title": "Exploring pharmacist role in dispelling myths regarding covid-19 vaccination",
+    "abstract": "Background Vaccination against Coronavirus provides adequate adaptive immunity to combat the infection; however, lack of knowledge and misinformation regarding COVID-19 vaccines leads to “Vaccine hesitancy” among people and halts the immunization process. Aim of this study is dispelling myths and misinformation via a pharmacist counseling and optimizing the vaccine acceptance to withstand this pandemic. \nMethods A prospective observational study was conducted in two phases at Quaid-i-Azam University (QAU), Islamabad and its peripheral rural area; 200 non-vaccinated individuals were recruited in the pre-intervention phase and 50 in the post-intervention phase. Interview based questionnaire filling was done in both the phases for highlighting the myths causing COVID-19 vaccine hesitancy, and major sources of spreading misinformation. Individuals were guided and counseled regarding misinformation about vaccination.\nResults In our study most of the respondents were females (70%). In current study, we counseled 50 participants from pre-intervention phase and significant difference has been seen in percentages. As in the pre-intervention phase, 77% individuals believed the myth that COVID-19 vaccine was developed too fast, and in the post-intervention phase it was reduced to 12% via counseling. Similarly 50% participants believed that vaccine is associated with COVID-19 illness that was decreased to 20% Highly prevailed myths included; too fast development of COVID vaccine (77%), its association with COVID-19 illness (72%), and doubt regarding its efficacy (53%). Chi square analysis found significant association between highly prevailed myths and education level. Study participants with higher education level were more reluctant as they were relying more on the misconceptions regarding COVID-19 vaccine (p-value > 0.05). \nConclusion Awareness regarding misconception and myths via proper counseling played important role in eradicating vaccine hesitancy and optimizing its acceptance. Longer follow up studies on large sample size are required for convincing results.",
+    "authors": ["A. Butt", "Hafiz ur Rehman", "Musa Bin Bashir", "Sandal Khan"],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/d1d6f678d9a6024298e9a4a9489ada2d909b2c18"
+  },
+  {
+    "title": "Assessment of Myths Regarding Coronavirus disease-19 Vaccine among Adults",
+    "abstract": "Background: Everyone, everywhere, should have access to COVID-19 vaccines.Vaccinesare a key strategy to stop escalation of the Coronavirus disease-(COVID-19) pandemic.Vaccine Myths and hesitancy can be due to lack of knowledge, false beliefs, or anti-vaccinemisinformation. Unfortunately, there has been a lot of deception surrounding vaccines andtheir development. When deciding whether to get vaccine, it’s important to separate mythsfrom facts. Objectives:To determine the myths regarding Covid-19 vaccine among adults.Materials and Methods: A community based cross sectional study was done for threemonths among adults of an urban area. Data regarding sociodemographic details and mythspertaining to Covid-19 vaccine were collected and entered in Microsoft excel and presentedas frequencies and percentages.Results: 193 adults took part in study.Maximum were aged 32-38years, 80% were literatesand majority of them were males. Residing in nuclear families was common. The mostcommon myths were related to vaccine having an effect on woman’s fertility (47.67%), sideeffects due to vaccine (56.99%) and not requiring vaccine if already infected with Covid-19(55.95%) and researchers rushed the development of covid-19 vaccine which makes it nottrustworthy (43.52%). Majority of the study participants considered vaccines can bedeveloped for common cold, HIV and other diseases.Conclusion: The circumstances in different parts of world varies and while vaccines may bevery effective at reducing number of people getting infected, they cannot assure cent percentprotection, since virus can mutate for new variants. Ending vaccination myths may also takessome time but at least can be lessened significantly if there is enough effort and collaborationfrom everyone.",
+    "authors": [
+      "Shruti Kardalkar",
+      "Swetha",
+      "Mayur S Sherkhane",
+      "Harsha B",
+      "I Amruta Swati"
+    ],
+    "year": 2024,
+    "url": "https://www.semanticscholar.org/paper/eae9c7f8830c6b6d5d47de35243735c41a9c81eb"
+  },
+  {
+    "title": "COVID-19 vaccine decision-making among Black women: A qualitative study.",
+    "abstract": "OBJECTIVE\nTo understand COVID-19 vaccine decision-making among Black women in the United States.\n\n\nMETHODS\nWe conducted qualitative interviews with 60 Black women (both African American and first- and second-generation immigrants originating from Africa and the Caribbean) living in the Minneapolis/St. Paul Metropolitan Area.\n\n\nRESULTS\nParticipants who were highly motivated to get vaccinated described their trust in science and a desire to protect themselves and those around them; while those who delayed vaccination reported doubts about vaccine safety. Many reported being influenced by targeted misinformation including the pervasive vaccine myths related to reproductive health. Historical trauma from unethical biomedical research and experiences of racism were also motivating factors. There were several concerns raised that were specific to ethnic groups.\n\n\nCONCLUSIONS\nCurrent public health strategies that are intended to promote COVID vaccination are failing Black communities. Participants highlighted the need for clear and culturally appropriate communication about COVID-19 and the vaccines that is aligned with their communities' values and addresses misinformation. The critical insights we have gained by listening to these communities should be used to develop novel vaccination policy approaches.",
+    "authors": ["I. Mohammed", "R. Widome", "K. Searle"],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/961833396b323b1567c7145a69f486650fdf6d07"
+  },
+  {
+    "title": "COVID-19 vaccine acceptance among health care professionals in Ethiopia: A systematic review and meta-analysis",
+    "abstract": "ABSTRACT Low vaccine acceptance remains a public health threat, which is still common among healthcare workers. Therefore, the purpose of this review is to determine the level of COVID-19 vaccine acceptance among healthcare professionals in Ethiopia. This review was reported using the PRISMA checklist. Eleven articles were retrieved, then extracted on Excel, and exported to STATA version 11 software for meta-analysis. The pooled prevalence of vaccine acceptance and it is 95% CI were presented using forest plots. Tests to check heterogeneity and publication bias were done. The estimated pooled prevalence of COVID-19 vaccine acceptance among healthcare professionals in Ethiopia with a random-effects model was 54.59% (95% CI: 42.49, 66.69) through a heterogeneity index (I2) of 99.1% (p < .001), which is relatively low. Therefore, it is important to identify and remove any myths or obstacles preventing healthcare professionals from accepting the COVID-19 vaccination.",
+    "authors": [
+      "Tebabere Moltot",
+      "Tesfanesh Lemma",
+      "Mulualem Silesh",
+      "M. Sisay",
+      "Abayneh Shewangizaw",
+      "Temesgen Getaneh",
+      "Birhan Tsegaw"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/25b41fb8ed65d2a21441cf0ef822dd29cd007936"
+  },
+  {
+    "title": "Prevalence of COVID-19 Vaccine Hesitancy and Its Associated Factors among Chronic Disease Patients in a Resource Limited Setting in Ethiopia: A Cross-Sectional Study",
+    "abstract": "Background. The COVID-19 pandemic disproportionately affects patients with chronic diseases. Thus, chronic disease patients are among the first high-risk population groups to get vaccinated. This might be challenged by vaccine hesitancy as it is one of the top ten global health issues for 2019. Furthermore, vaccination myths and conspiracy theories have been proliferating, and the developing world can readily embrace them, which might cause vaccine hesitancy. However, there is a paucity of evidence regarding chronic illness patient’s willingness to be vaccinated. As a result, the aim of this study is to determine the magnitude of vaccine hesitancy and associated factors among chronic disease patients in Ethiopia. Method. An institutional-based cross-sectional study was conducted among adult ambulatory chronic disease patients who were selected using stratified sampling technique from June 1 to August 1, 2021. Data were collected through a face-to-face interviewer-administered questionnaire. Vaccine hesitancy was measured based on a questionnaire which was adapted from the reviewed literature. Bivariable and multivariable logistic regression was used to identify factors, and variables with \n \n p\n <\n 0.05\n \n were considered statistically significant. Result. A total of 422 respondents participated in the survey; the response rate was 99.7%. The mean age of the participants was 45 years \n \n ±\n \n  16.95 and 228 (54%) of them were male. Almost half of the respondents (49.5%) were hesitant toward the COVID-19 vaccine. Participants who were male (AOR = 1.56, 95% CI: 1.03, 2.35), having good knowledge about the COVID-19 vaccine (AOR = 1.60 95% CI: 1.06, 2.41) and having a comorbidity (AOR = 3.36, 95% CI: 1.73, 6.56), were factors associated with the acceptance of the COVID-19 vaccine. Conclusion. The level of COVID-19 vaccine hesitancy was high. The COVID-19 vaccine’s acceptability was influenced by being a man, having knowledge about the vaccine and having comorbidities. Furthermore, the most prevalent reason for refusing to take the vaccination is a fear that it may not be safe. As a result, public awareness campaigns should concentrate on delivering more information about the COVID-19 vaccine’s safety and efficacy. Furthermore, it is critical to disseminate accurate information, particularly among women, and to educate people about the vaccine.",
+    "authors": [
+      "Eden Abetu Mehari",
+      "Tafete Getu Mekonen",
+      "Melkamu Tesfahun Adugnaw",
+      "Ousman Abubeker Abdela"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/1a31ccea2627f772a1aa34c8ce13cffd4ae7f118"
+  },
+  {
+    "title": "A Qualitative Study on Barriers to COVID-19 Vaccine Uptake among Community Members in Tanzania",
+    "abstract": "The use of vaccines is one of the key tools in reversing the COVID-19 pandemic; however, various reports reported the low uptake of the vaccines. This study explored the barriers to the COVID-19 vaccine uptake among community members in Tanzania. A qualitative explorative study was conducted in December 2021 and April 2022 in eight regions of Tanzania. Focus group discussions (FGDs) and in-depth interviews (IDIs) were the methods of data collection. A total of 48 FGDs and 32 IDIs were conducted. Participants were aware of the COVID-19 disease and vaccines. The barriers to the COVID-19 vaccine non-uptake included receiving contradicting statements from top government leaders, vaccine preceded the education, myths towards vaccines, the presence of different types of vaccines, the process of getting the vaccine, the influence of social media and random people from the community, and vaccine conflicting religious beliefs. Despite being aware of the vaccine, the uptake of the COVID-19 vaccine is still low. Interventions that focus on increasing community knowledge about COVID-19 vaccines and addressing myths about the vaccines are needed.",
+    "authors": [
+      "M. Mgongo",
+      "R. Manongi",
+      "I. Mboya",
+      "J. Ngocho",
+      "C. Amour",
+      "Monica Mtei",
+      "Julieth S Bilakwate",
+      "Ahmed Y Nyaki",
+      "J. George",
+      "Beatrice J Leyaro",
+      "Amina Farah",
+      "J. Kengia",
+      "Florian Tinuga",
+      "Abdalla H Bakari",
+      "F. Kirakoya",
+      "Awet Araya",
+      "N. Kapologwe",
+      "S. Msuya"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/4952956697f8d85a568255a9626ae029b63414c3"
+  },
+  {
+    "title": "Sources of COVID-19 Vaccine Promotion for Pregnant and Lactating Women in Bangladesh",
+    "abstract": "COVID-19 vaccines are an effective public health intervention to reduce COVID-19-related morbidity and mortality. Given that pregnant and lactating women have a higher risk of severe COVID-19 complications, it is paramount to understand the factors that inform vaccine decision-making among this population. In this study, we sought to identify facilitators and barriers to COVID-19 vaccine acceptance and vaccine promotion in pregnant and lactating women in Bangladesh. We conducted 40 in-depth interviews with 12 pregnant women, 12 lactating women, and 16 health workers from one urban and four rural communities in Bangladesh. We used a grounded theory approach to identify emerging themes. Our results suggest that health workers and religious leaders played key roles in promoting COVID-19 vaccines in this population. Further, we found that the culture of trust in public health authorities and the existing vaccine infrastructure facilitated vaccine promotion. However, changes in vaccine eligibility and myths and rumors acted as both facilitators and barriers to vaccine promotion within our study. It is crucial that maternal immunization vaccine promotion efforts push pregnant and lactating women toward vaccine acceptance to protect the health of mothers and their babies. Additionally, as new maternal vaccines are developed and licensed, understanding how to best promote vaccines within this group is paramount.",
+    "authors": [
+      "B. Fesshaye",
+      "Sydney A. Wade",
+      "Clarice Lee",
+      "Prachi Singh",
+      "Eleonor Zavala",
+      "H. Ali",
+      "Hafizur Rahman",
+      "T. Siddiqua",
+      "Shirina Atker",
+      "R. Karron",
+      "R. Limaye"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/3907ee8d197befb29d89a150b8ba22cfed4b76b5"
+  },
+  {
+    "title": "Acceptance towards COVID-19 vaccine among Qassim populations: A cross-sectional study",
+    "abstract": "Introduction: The approval of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) vaccines and obtaining herd immunity raise the optimism about seeing the end of this pandemic but vaccine hesitancy or refusal to vaccinate is a major threat to progress toward achieving herd immunity. In this study, we identify baseline knowledge, myths, misconceptions, attitudes, beliefs, and behaviors toward the COVID-19 vaccine. This help to develop new strategies to raise awareness, correct misconceptions and improve acceptance of the COVID-19 vaccine. This study aim is to evaluate the acceptance of COVID-19 vaccine among population in Qassim region of Saudi Arabia. Methods: This cross-sectional study conducted among target people who were more than 11 years old in Qassim Region of Saudi Arabia using the snowball sample study. A self-administered online questionnaire was used that evaluates the knowledge and acceptance of COVID-19 vaccine among this population. Results: The results show that the participants' high knowledge of COVID-19 translates into good and safe practices, during the COVID-19 pandemic. Public health workers worldwide should concentrate on enlightening and building faith among the unsure and reluctant population regarding security, effectiveness, and adverse effects of the COVID-19 vaccine. Conclusions: The study findings are useful to the policymakers and healthcare professionals who are working on vaccine awareness programs of COVID-19. The findings conclude that the health education interventions should be directed to population of Qassim, Saudi Arabia, at high risk of contracting COVID-19.",
+    "authors": [
+      "Muslet H. Alharbi",
+      "Norh Alharbi",
+      "Shumukh M. Almutairi",
+      "Maha K Alharbi",
+      "Jolan Alsaud",
+      "Badr Alnssyan",
+      "W. Al Abdulmonem"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/1cb899c91456f591348561aa26c7afd0c81c6a42"
+  },
+  {
+    "title": "COVID-19 vaccine barriers and perception among rural adults: a qualitative study in Bangladesh",
+    "abstract": "Objective The COVID-19 pandemic continues to pose challenges for global public healthcare, even with the authorisation of several vaccines worldwide. To better understand rural communities’ knowledge, attitudes, perceptions and barriers towards these vaccines, we conducted a qualitative cross-sectional study with adults in rural Bangladesh. Setting This cross-sectional study was conducted in the rural areas of Sylhet and Natore in Bangladesh from August 2021 to February 2022. Participants Our study involved 15 in-depth interviews with rural adults and 2 key informant interviews with health workers. Results We analysed data thematically, resulting in four main themes: (1) knowledge and perception aspects, (2) myths and misconceptions, (3) practice and attitude and (4) barriers and challenges of COVID-19 vaccines. Conclusions The findings indicate that rural populations lack sufficient knowledge about COVID-19 vaccines but have a more favourable attitude towards them. Misconceptions, beliefs and personal experiences were found to be the main reasons for vaccine avoidance. To address these challenges and dispel the spread of misinformation, health education programmes play a pivotal role in improving vaccine management. Policy-makers should initiate these programmes without delay to create a well-informed and enlightened community, given that the COVID-19 is still spreading.",
+    "authors": [
+      "M. Khanam",
+      "Kazi Istiaque Sanin",
+      "Razia Sultana Rita",
+      "Farhana Akand",
+      "Md. Fozla Rabbi",
+      "Md. Khaledul Hasan",
+      "Tasnia Alam",
+      "Tahmeed Ahmed"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/9226d385ef6fd5f7c701a69395762ef3cab2782b"
+  },
+  {
+    "title": "Knowledge, Attitude, And Practice Among Healthcare Professionals Regarding the Myths On COVID-19 Vaccination: A cross-sectional questionnaire study and demystification",
+    "abstract": "Background: COVID-19 vaccine is the mighty weapon opted by all the countries across the globe in an attempt to eradicate the fatal COVID-19 pandemic. The myths on the COVID-19 vaccine are spreading widely, causing a hindrance to this noble preventive measure. The prevalence of such myths among healthcare professionals may be toxic and deadly.\nAim & Objectives: To assess the knowledge, attitude, and practice of the healthcare professionals regarding the myths on COVID-19 vaccination and to demystify them.Materials and Methods: An 18-item questionnaire evaluating knowledge, attitude, and practice based on the existing myths on COVID-19 vaccination was circulated through Google Forms® among the 412 healthcare professionals of six disciplines belonging to a private University. The responses obtained were subjected to statistical analysis using SPSS® 20 software package.\nResults: A total of 385 health professionals participated in this study. The majority of them had medium knowledge (165) and positive attitude (273) with the mean knowledge and attitude scores of 3.82 ± 1.55 out of 6 and 4.3 ± 1.58 out of 7 respectively. Even though 312 participants got vaccinated, 72 of them failed to receive it. The knowledge scores showed a high statistically significant difference among the participants of different designations (p=0.001), but not with gender, field, and staff with different years of experience (p>0.05). The attitude scores were statistically different among participants of fields and designation (p<0.05) but not among genders (p=0.31) and staff with different years of experience (p=0.87). Knowledge and attitude scores showed a positive linear correlation and a high statistically significant difference (p<0.001).\nConclusion: This study recommends more enhanced education programs on COVID-19 vaccination for the health professionals and demands an improved knowledge, attitude, and practice among them to achieve the goal of 100% vaccination so as to completely eradicate the COVID-19 pandemic.",
+    "authors": [
+      "L. S",
+      "Z. Naik",
+      "Arun Panwar",
+      "S. M",
+      "V. Keluskar",
+      "R. K"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/9580935272da5ea8dd52879aca02e5000f134c57"
+  },
+  {
+    "title": "Covid-19 Vaccine Hesitancy: Frequency and causes among Population of Lahore",
+    "abstract": "Background: Covid-19 vaccine hesitancy is prime hurdle in control and eradication of Covid-19 pandemic. The rapid Procedure of development of new vaccines resulted in a lot of false information and rumors leading to decrease trust of the public in the safetyand effectiveness of the vaccine. Aim: To study the frequency and causes of Covid-19 vaccine hesitancy amid population of Lahore. Methods: This cross sectional study design was done on a sample of 385 participants from lahore were included in the study. Frequency and causes were recorded on the prescribed questionnaire. Results: Frequency of hesitancy was found to be 41.7%. 12.8% had doubts related to efficacy and safety of the vaccine. 9.9% were of the view that the risks of the vaccine are greater than its benefits. 5.7% assumed that vaccines were promoted for gains of pharmaceutical companies. 4.4% were concerned about the immediate side effects of the vaccine. 2.6% responded by saying that vaccine was not recommended by health professionals. 2.3% had myths related to vaccine. And lastly, 1.63% said vaccine was not available free of cost. Conclusion: Hesitancy of covid-19 vaccine is seen more in illiterate people and the main cause of hesitancy is uncertainty related to protection and efficacy of covid-19 vaccine. Keywords: Covid-19 vaccine, hesitancy, myths, safety and efficacy, uncertainty, doubt, well being ,protection",
+    "authors": ["Najma Shoaib", "Muhammad Atif Qureshi", "M. Latif"],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/45e25cd61f90ee741011854a0bfcacb7b4270169"
+  },
+  {
+    "title": "Perception And Attitude Towards COVID-19 Vaccine: A Cross-Sectional Study From Pakistan",
+    "abstract": "ABSTRACT \n \nObjective: The aim of this study was to investigate the awareness regarding COVID-19 vaccines and identify the factors underlying refusal. \nMethodology: A cross-sectional study was carried out amongst the general population from different walk of life regarding awareness and myths about COVID-19 vaccine selected by convenient sampling method. To collect data, we developed an online survey using questionnaires regarding beliefs and myths about vaccination. The study was started in March 2021 after approval from the ethical committee. Survey consisting of several questions was created using google form. The link was shared on different social media applications and participants were requested to fill the questionnaires. Some patients and their attendants who were visiting HIT hospital Taxila for any reason were also included in the study and they were requested to fill the form at the spot. Participants were given a brief summary of the survey and its purpose, as well as the study protocol and a declaration of confidentiality and privacy, before beginning the questionnaire. \n \nData was collected on online server form. Demographic information was noted. They were asked about their registration, vaccination status and their fear regarding vaccine and its complications. They were questioned about myths and misbeliefs about covid 19 vaccine. Post vaccination symptoms, their preference for different types of available vaccine, and need of booster dose were also inquired. Their beliefs regarding effectiveness of vaccine in prevention of covid-19 symptoms and severity and following the SOPs released by health authorities were noted. \n \nResults: Total 287 individuals were included in this study. 62% were females and 31% were males. 50% were doctors and 30% were not registered for vaccination. 70% of individuals were vaccinated and 83% were not afraid to get vaccination while 50% of people thought that they will get COVID-19 after vaccination. 35% participants were afraid that they will get allergic reaction post vaccination and 9% thought that COVID-19 is fake i.e., there is no such disease as COVID-19. 82% were aware that they will need vaccine even if they had COVID-19. Only 7% of population thought that COVID-19 will change their DNA. \n \nChi square test was applied to find out statistically significant difference in opinion between three groups i.e., age, gender and academic qualification. Majority of the statistical correlation was found in these questions on the basis of qualification. There was statistically significant difference in opinion depending on academic qualification, health care and  non-health care workers shown by p value less than 0.05. Health care professionals think there is need for new vaccinations for every new variant, there were mild covid symptoms post vaccination and there was need of booster dose every year while others have contrary opinion. Medical students didn’t believe in DNA alteration. \nTheir was also statistically significant difference in opinion between male and female gender. Most female participants believe that there was requirement of new vaccine for every new variant, there were more chances of covid after vaccination and they need booster dose every year to prevent covid while males have opposite opinion. Majority of the post vaccination symptoms were observed in femaleswhile male observed pain on the injection site only \n \nConclusion: Awareness and education of general population regarding safety, efficacy and benefits of covid-19 vaccination is the cornerstone of the path to eradicate this pandemic. Different platform of social, print and electronic media plays a pivotal role in this regard. However, the importance of health authorities, religious scholars, social activists and politicians in creating awareness cannot be denied either. Collectively all these factors attribute towards the COVID free Pakistan. \nKey Words: COVID-19, vaccine hesitancy, Pakistan, public awareness, myths \n",
+    "authors": [
+      "Kausar Malik",
+      "Faiza Batool",
+      "Saba Bari",
+      "Fatima Malik",
+      "Savida Ilyas Dar",
+      "Lubna Meraj"
+    ],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/9e26f89ba73a336da07cfd58dac5a29ccd4620eb"
+  },
+  {
+    "title": "DISPOSITION OF ADOLESCENTS TOWARD RECEIVING COVID-19 VACCINATIONS IN VILLAVICENCIO: MYTHS AND BELIEFS",
+    "abstract": "Global efforts regarding the COVID-19 pandemic have been focused on preventive activities, such as vaccination, since the disease is expected to become endemic. Adolescents were among the last population groups to be included in the vaccination program in Colombia, and adequate coverage has not yet been achieved in this group and in infants. It is important to understand their motivations to improve the willingness of this population to be vaccinated. A cross-sectional study was designed via an online survey in adolescents aged 14-19 years in Villavicencio Meta after validation of the survey and informed consent. The following options were provided for the question on vaccine disposition: willing, undecided, and unwilling. We described the disposition toward receiving COVID-19 vaccine using graphs and absolute and relative frequencies based on age group. A multinomial regression model was used to assess the relationship between our predictor variables and vaccine disposition in adolescents. In this study, 288 adolescents were surveyed. The risk variables for unwillingness to be vaccinated were being male (odds ratio [OR] 2.18, 95% confidence interval [CI] 0.8-5.7, p = 0.62), belonging to low social stratum (OR 2.29, 95% CI 0.9-5.88, p = 0.19), having a monthly family income of less than 1 million Colombian pesos (250 USD) (OR 2.01, 95% CI 0.8-5.16, p = 0.19), and having basic education (OR 2.59, 95% CI 0.33-20.14, p = 0.18). Unproven myths and beliefs exert a profound influence on adolescents, which results in an unwillingness to be vaccinated. Hence, innovative public health strategies should be designed to improve the disposition to be vaccinated in this population group.",
+    "authors": ["C. Balaguera", "M. Osorio", "M. Echavarría", "M. Garzón"],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/395800f5ab33361248cd51af649e8c2010a93734"
+  },
+  {
+    "title": "COVID-19 vaccine hesitancy: misinformation and perceptions of vaccine safety",
+    "abstract": "ABSTRACT Despite COVID-19’s devastating toll, many Americans remain unwilling to receive the COVID-19 vaccine. The authors conducted a US national survey to understand the health literacy of adults regarding the vaccine, as well as their COVID-19 beliefs and experiences. People who believed the COVID-19 vaccine was unsafe were less willing to receive the vaccine, knew less about the virus and were more likely to believe COVID-19 vaccine myths. On average, they were less educated, lower income, and more rural than people who believed the vaccine is safe. The results highlight the importance of developing clear health communications accessible to individuals from varied socioeconomic and educational backgrounds.",
+    "authors": ["K. Kricorian", "R. Civen", "O. Equils"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/532c81b7e74adeb4a1761933e47dcb4436dea662"
+  },
+  {
+    "title": "Factors influencing COVID-19 vaccine uptake among adults in Nigeria",
+    "abstract": "Background Emerging variants of Coronavirus disease 2019 (COVID-19) has claimed over 3000 lives in Nigeria and vaccination remains a means of reducing the death toll. Despite ongoing efforts by the government to ensure COVID-19 vaccination of most residents to attain herd immunity, myths and beliefs have adversely shaped the perception of most Nigerians, challenging the uptake of COVID-19 vaccine. This study aimed to assess the factors influencing the awareness, perception, and willingness to receive COVID-19 vaccine among Nigerian adults. Methods A cross-sectional online nationwide study was conducted from April to June 2021 among Nigerian adult population using the snowballing method. Descriptive analysis was used to summarise the data. Univariate and multivariate analysis was used to identify the predictors of COVID-19 uptake among the respondents. A p value <0.05 was considered significant. Results A total of 1058 completed forms were analysed and 63.9% were females. The mean age was 40.8 years±12.2 years. Most of the respondents (740; 69.5%) had satisfactory awareness of the vaccination exercise. The media was the main source of information. Health workers reported higher level of awareness (aOR = 1.822, 95% CI: 1.388–2.524, p<0.001). Respondents that are Christians and Muslims had better awareness compared to the unaffiliated (aOR = 6.398, 95% CI: 1.918–21.338, P = 0.003) and (aOR = 7.595, 95% CI: 2.280–25.301, p<0.001) respectively. There is average score for perception statements (566; 53.2%) towards COVID-19 vaccination. Close to half of the respondents (44.2%) found the short period of COVID-19 production worrisome. Majority of the respondents were willing to get the vaccine (856; 80.9%). Those without a prior diagnosis of COVID-19 had a lower willingness to get vaccinated (aOR = 0.210 (95% CI: 0.082–0.536) P = 0.001). Conclusion The study revealed a high level of awareness, willingness to receive the vaccine and moderate perception towards the vaccination activities. Influencing factors that significantly affects awareness were religion, occupation, education and prior diagnosis of COVID-19; for perception and willingness—occupation, and prior diagnosis of the COVID-19 were influencing factors.",
+    "authors": ["Halimat Adedeji-Adenola", "O. Olugbake", "S. Adeosun"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/3e2af5d6f799758d51164cbdfa6ec9d0880daf7d"
+  },
+  {
+    "title": "Myths and misunderstandings: how religious Education contributed to vaccine hesitancy among Nigerian Christian students",
+    "abstract": "ABSTRACT The aim of this study was to explore: 1) how religious education (RE) contributed to COVID-19 vaccine hesitancy among Christian students in Nigeria; and 2) how RE could be used to counter vaccine hesitancy among students in Nigeria. Although progress has been made in examining different aspects of the coronavirus vaccine hesitancy in Nigeria, literature has yet to focus on how RE contributed to vaccine hesitancy among students in Nigeria. Data was collected through semi-structured interviews with 20 students in primary and secondary schools and analysed thematically. Emerged themes included: (1) the apocalypse; (2) dehumanisation by vaccine; (3) 666 (‘the mark of the beast’); (4) shortening of the lifespan; and (5) Separating personal beliefs from class studies. Findings reveal that vaccine hesitancy becomes a product of the type of RE young people receive in school, especially in primary and secondary schools. As a country with one of the lowest rates of vaccinated individuals, the findings point to the need to adjust the perspective that RE has on vaccines.",
+    "authors": ["F. Uroko", "G. C. Nche"],
+    "year": 2023,
+    "url": "https://www.semanticscholar.org/paper/06acc123630999d5ce50b56512058cca6bbaea5f"
+  },
+  {
+    "title": "COVID-19 anti-vaccine attitude and hesitancy",
+    "abstract": "High vaccination rates are required around the world to create herd immunity and terminate the current COVID-19 pandemic growth. With the steady rise in COVID-19 vaccine supplies, hesitancy and rejection to be vaccinated has become a problem worldwide for large vaccine coverage. Understanding the causes of vaccine avoidance or hesitancy can help to increase vaccination intentions in the general population. A number of factors contributed to increasing hesitancy. Some causes of COVID-19 vaccine hesitancy include anti-vaccine myths and confusing messages about some severe side effects of few vaccines, confusion over protection levels, poor health literacy (lack of accurate knowledge about vaccines and virus), deficient legal liability from the vaccine manufacturers, political and economic intentions, mistrust and suspicion of medical companies, concern of efficacy against to severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) variants, safety concerns (elderly, people with preexisting comorbidities) and some socio-demographic factors. Urgent interventions and policies targeting the corresponding factors are needed. Recognizing obstacles to vaccine uptake helps in the development of effective solutions to solve them. Evidence-based and behaviorally guided approaches should be used to achieve high acceptance and uptake.",
+    "authors": ["M. Hasanzad", "H. Namazi", "B. Larijani"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/c2dc004b67e5d5365ace1c6f4bfa2aba8dfdf7a4"
+  },
+  {
+    "title": "COVID-19 Vaccine Hesitancy in Three Latin American Countries: Reasons Given for Not Becoming Vaccinated in Colombia, Ecuador, and Venezuela",
+    "abstract": "ABSTRACT Although vaccines have been developed to prevent COVID-19, vaccine hesitancy is a significant barrier for vaccination programs. Most research on COVID-19 vaccine hesitancy has blamed misinformation and misstated concerns about effectiveness, safety, and side effects of these vaccines. The preponderance of these studies has been performed in the Global North. Although Latin American has been substantially and negatively impacted by COVID-19, few studies have examined COVID-19 vaccine hesitancy there. We explored reasons volunteered for COVID-19 vaccine hesitancy from a sample of 1,173 Colombians, Ecuadorians, and Venezuelans. Overall, COVID-19 vaccine hesitancy in these three countries is higher than desirable, but most people who are COVID-19 vaccine hesitant offered one reason or fewer. The reasons offered are diverse, including myths and exaggerations, but also individual-level contraindications for vaccination and structural barriers. Because of the diversity of reasons, single-issue mass campaigns are unlikely to bring about large shifts in COVID-19 vaccine hesitancy in Colombia, Ecuador, and Venezuela. Our data suggest that interpersonal communication, particularly in Ecuador, and addressing structural concerns, particularly in Venezuela, are likely to have the greatest impact on vaccine uptake.",
+    "authors": [
+      "B. Bates",
+      "Adriana Villegas-Botero",
+      "J. Costales",
+      "A. Moncayo",
+      "A. Tami",
+      "Ana Carvajal",
+      "M. Grijalva"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/f9e18292332973db71554e996fff1947402d37f4"
+  },
+  {
+    "title": "Perspectives on the COVID-19 vaccine uptake: a qualitative study of community members and health workers in Zambia",
+    "abstract": "Objective Since introduction of the programme in April 2021, COVID-19 vaccine uptake has been low at less than 20%. This study explored community members’ and health workers’ perspectives on the COVID-19 vaccine uptake and its influencing factors in Zambia. Study design A qualitative study employing focus group discussions (FGDs) and in-depth interviews (IDIs). Study setting Sixteen primary healthcare facilities selected from Lusaka, Copperbelt, Central and Southern provinces. Participants A total of 32 FGDs comprising local community members and 30 IDIs including health workers, traditional, religious and civic leaders (n=272). FGDs were separated based on age (youth and adults), sex (male and female) and place of residence (urban and rural). Results Both FGD and IDI participants agreed that vaccine uptake was low. Limited knowledge, access to information, myths and misconceptions, negative attitude, low-risk perception and supply in remote areas affected vaccine uptake. Overall, FGD participants expressed limited knowledge about the COVID-19 vaccine compared with health workers. Further, FGD participants from urban sites were more aware about the vaccine than those from rural areas. Health workers perceived the vaccine to be beneficial; the benefits included prevention of infection and limiting the severity of the disease. Moreover, FGD participants from urban sites expressed a negative attitude towards the vaccine. They believed the vaccine conferred no benefits. By contrast, participants from rural communities had mixed views; they needed more information about the vaccine benefits. Participants’ attitude seems to have been influenced by personal or family experience with the COVID-19 disease or vaccination; those who had experienced the disease had a more positive attitude. In contrast, most young people believed they were not at risk of the COVID-19 disease. Misinformation from social media influenced their attitude. Conclusion These results provide starting points for future policies and interventions for increasing COVID-19 vaccine uptake.",
+    "authors": [
+      "C. Sialubanje",
+      "Nawa Mukumbuta",
+      "M. Ng'andu",
+      "Ernest Malangizo Sumani",
+      "Mpala Nkonkomalimba",
+      "Daniel Em Lyatumba",
+      "Alick Mwale",
+      "Francis Mpiana",
+      "J. M. Zulu",
+      "Basil Mweempwa",
+      "Denise Endres",
+      "Maurice Mbolela",
+      "Mpatanji Namumba",
+      "W. Peters"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/00e0b2ddfd313bf562cd791ccad326ffcf8281aa"
+  },
+  {
+    "title": "Medical students in Karachi and COVID-19: Myths and facts",
+    "abstract": "Objectives: COVID-19 pandemic brought mortalities, morbidities, fear, and financial despair among people around the world. As it advanced, misinformation and myths about it caught wildfire, contributing to misbelief among the already shocked population. Medical students are the building blocks of the medical community and can provide a pivotal role in combating COVID-19 misinformation by delivering correct knowledge and awareness to the non-medical population of the country. Hence, it is important to assess their knowledge and perception of COVID-19 myths. Therefore, this study evaluates medical student’s knowledge regarding myths and misinformation related to COVID-19 infection and its vaccine. The study also assesses the belief of medical students on various conspiracy theories of COVID-19. Methods: An online cross-sectional survey was conducted among 401 undergraduate medical students of Karachi in June–August 2021. A validated, structured, and self-administrated questionnaire was used for data collection. The data were entered on an open EPI version 3.01 and Statistical Package of Social Science version 26 for analysis. A chi-square test was performed to identify determinant factors. All p-values less than 0.05 were considered significant. Results: Overall knowledge score of participants about myths and misinformation related to COVID-19 and its vaccine was as follows: 166 (28.9) participants possess good knowledge, while 167 (41.6) and 118 (29.4) had moderate to poor knowledge, respectively. Senior students, vaccinated, and participants infected by COVID-19 had good to moderate knowledge. Overall, 139 (34.7) participants strongly disagree and 103 (25.7) participants somewhat disagree with conspiracy theories related to COVID-19. Absence of belief in the conspiracies is associated with vaccinated participants. Conclusion: The study shows that most medical students possess adequate knowledge of misinformation about COVID-19 and its vaccines, and have low belief in conspiracy theories of COVID-19.",
+    "authors": [
+      "Omer Bin Khalid Jamil",
+      "M. Muhib",
+      "Muhammad Anas Abbal",
+      "Amna Muhammed Ahmed",
+      "Hafsa Hayat Khan",
+      "Nabeela Yar khan"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/883f6dd764353b9f74ace0236996e1ca95986724"
+  },
+  {
+    "title": "Exploring the myths surrounding the COVID-19 vaccines in Africa: the study to investigate their impacts on acceptance using online survey and social media",
+    "abstract": "Purpose The coronavirus disease 2019 (COVID-19) vaccine is the key to getting out of the pandemic. However, acceptance of the vaccine has been affected by false information and rumors, which have kept people from getting the shot since it was rolled out. Materials and Methods This study aimed to investigate the various misconceptions surfaced about the COVID-19 vaccines in Africa. We performed an online survey using an anonymous questionnaire to reach out to African respondents by social media and all possible online platforms such as Facebook, WhatsApp, Instagram, Twitter, YouTube, and so forth. The web-based questionnaires about the myths surrounding the vaccines were extracted from nonscientific information, unproven statements, social media posts, news reports, and people’s concerns about the safety of the COVID-19 vaccines. Participants indicated their level of agreement with each statement. Results A total of 2,500 people responded to the online survey in Africa. The two common myths that respondents agreed with were that “since vaccines for COVID-19 have been developed, we can make vaccines for the common cold, human immunodeficiency viruses, and other diseases” (n=892, 35.7%) and that “researchers rushed the development of the COVID-19 vaccines; therefore, it is not very effective, safe and cannot be trusted” (n=595, 23.8%). The range of respondents who neither agreed nor disagreed with these myths was 12.4%–33.0%. The majority (1,931, 77.2%) indicated disagreement with the statement “after getting the COVID-19 vaccine, one can stop wearing a mask as well as taking safety precautions.” Conclusion Myths surrounding the COVID-19 vaccines have impact on acceptance. Exploring them helps public health authorities in Africa dispel them and provide accurate information to promote vaccination campaigns, education, and acceptance.",
+    "authors": [
+      "E. Lamptey",
+      "E. Senkyire",
+      "Serwaa Dorcas",
+      "Dooshima Aki Benita",
+      "E. Boakye",
+      "Theckla Ikome",
+      "Alex Asamoah"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/3c1fd0e6ad20f3931390734713af87287c22c48e"
+  },
+  {
+    "title": "COVID-19 Vaccines: Community Myths Vs Facts",
+    "abstract": "Objective: To determine the reasons for hesitancy regarding COVID-19 vaccines. \nStudy Design: Cross-sectional study. \nPlace and Duration of Study: Combined Military Hospital, Rawalpindi Pakistan, from Feb to Jun 2021. \nMethodology: After Ethical Committee approval, 100 respondents were recruited, regardless of vaccination status, and requested to respond to 27 different myths and queries circulating about COVID-19 vaccines. \nResults: Mean age of participants was 36.25 ± 5.77 years, ranging from 15-80 years. Fifty-three were males and 47 females. 41% of subjects trusted the Sino-pharm vaccine, and 25% preferred Pfizer Bio N Tech, while 34% could not answer due to the lack of knowledge. 55% subjects showed concern about catching the infection from Vaccination. 54% considered vaccines unsafe for pregnant and breastfeeding women. 29% believed it unsafe for the elderly and those with comorbidities. 14% believed it could cause autism in children and infertility in adults. 62% individuals acknowledged that vaccines have no nano chips to track patients. 46% opined that vaccines were rushed through trials and had doubtful efficacy. 11% individuals thought vaccines could alter DNA, while most were aware of this false concept. 28% considered that vaccines were needless because recovery from COVID-19 was excellent, while 63% emphasised the need for Vaccination. 23% deemed the side effects of vaccines more dangerous than the disease itself. 85% individuals favoured use of mask and social distancing after getting the vaccine. \nConclusion: Strong efforts are needed to support the COVID-19 vaccine and to eliminate negative propaganda on media outlets.",
+    "authors": [
+      "Syed Waqar Abbas",
+      "Syeda Fatimah Zareen",
+      "S. Nisar",
+      "Aliya Farooq",
+      "A. Rasheed",
+      "Muhammad Umer Saleem"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/d00d991db7bbfbd76081018e57dad177366c8288"
+  },
+  {
+    "title": "Describing the Myths and Misconceptions Regarding COVID-19 Vaccines Among the Population of the Kingdom of Saudi Arabia",
+    "abstract": "Objectives This study aims to describe the common myths and misconceptions in addition to the perception and attitudes toward coronavirus disease 2019 (COVID-19) vaccines in the Saudi Arabian community. Methods This is a cross-sectional study that included adults (18 years and older) residing in the Kingdom of Saudi Arabia. Participants were asked to complete an online survey that evaluated their perception and attitudes toward the available COVID-19 vaccines in Saudi Arabia. Statistical comparison between two groups and more was done using chi-square, independent t-test, and one-way ANOVA. Results A total of 471 responses were analyzed with a majority (83.2%) believing that vaccinations are important. The vaccine preferred among the Saudi Arabian population was Pfizer (65.4%). More than half of our respondents (54.8%) strongly agreed that COVID-19 vaccines can reduce the severity of the COVID-19 infection. Respondents in the healthcare sector were significantly more likely to have a more positive view on vaccines compared to those in non-healthcare sectors (p < 0.001). Conclusion The Saudi Arabian population has shown substantial awareness about COVID-19 vaccines; however, public health officials need to further increase awareness measures on COVID-19 vaccines to limit myths and misconceptions, especially among certain populations that are more prone to it.",
+    "authors": [
+      "N. B. Odeh",
+      "Tala H Sriwi",
+      "Lana M. Arbili",
+      "T. Arabi",
+      "B. Sabbah",
+      "M. S. Alkodaymi"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/5c0f83816512e005cd02c43414728a59867c094b"
+  },
+  {
+    "title": "Myth and Misinformation on COVID-19 Vaccine: The Possible Impact on Vaccination Refusal Among People of Northeast Ethiopia: A Community-Based Research",
+    "abstract": "Background To prevent the spread of COVID-19 and carry out a successful vaccination program especially in low-income countries, people must have faith on scientists and health experts. The most significant challenge to vaccination programs’ efficacy is now regarded to be a lack of information and trust in immunization due to myths and misinformation spread in the community. Therefore, this study aimed to identify the myth and misconceptions that are propagated about the COVID-19 vaccine, the refusal rate of the vaccine and determine the factors associated with COVID-19 vaccine refusal. Methods A community-based cross-sectional study was conducted from December 7 to January 25, 2022. Face-to-face interviews with a standardized questionnaire were used to collect data on the variables. Data were entered into the statistical tool Epi data version 3.1 and then exported to SPSS version 25 for analysis. Binary logistic regression, both bivariable and multivariable, was conducted. In the multivariable binary logistic regression model, the adjusted odds ratio with 95% confidence interval was used to declare statistically significant factors based on a p value less than 0.05. Results Out of the total 574 respondents, 60.3% [95% CI (55.5, 64.2)] of them refused to take COVID-19 vaccine. In this study, respondent’s age [AOR = 2.1 at 95% CI: (1.8, 4.9)], perception on COVID-19 vaccine [AOR = 3.0 at 95 CI: (1.9, 4.6)], eHealth literacy [AOR = 2.7 at 95% CI: (1.7, 4.1)], source of information about the vaccine [AOR = 2.9 at 95% CI: (1.9, 4.4)], computer literacy [AOR = 2.8 at 95 CI: (1.8, 4.2)] and frequency of internet use [AOR = 2.2 at 95 CI: (1.8, 5.3)] were identified as determinant factors for COVID-19 vaccine acceptance. Conclusion Factors like eHealth literacy, source of information about the vaccine, frequency of internet use, respondent’s perception about the vaccine and computer literacy were found to be determinant factors for COVID-19 vaccine acceptance.",
+    "authors": ["Mulugeta Hayelom Kalayou", "Shekur Mohammed Awol"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/cb400ec1b352a059674cf190e1169d3e478d87a6"
+  },
+  {
+    "title": "The COVID-19 Vaccine and Pregnant Minority Women in the US: Implications for Improving Vaccine Confidence and Uptake",
+    "abstract": "The American College of Obstetricians and Gynecologists (AGOG) recommends the FDA-approved Pfizer and Moderna mRNA COVID-19 vaccines and boosters for all eligible pregnant women in the US. However, COVID-19 vaccine confidence and uptake among pregnant minority women have been poor. While the underlying reasons are unclear, they are likely to be associated with myths and misinformation about the vaccines. Direct and indirect factors that deter minority mothers in the US from receiving the mRNA COVID-19 vaccines require further investigation. Here, we examine the historical perspectives on vaccinations during pregnancy. We will examine the following aspects: (1) the influenza and tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis (Tdap) vaccinations during pregnancy; (2) the exclusion of pregnant and lactating women from COVID-19 vaccine trials; (3) COVID-19 vaccine safety during pregnancy, obstetric complications associated with symptomatic COVID-19 during pregnancy, COVID-19 vaccine hesitancy among pregnant minority women, and racial disparities experienced by pregnant minority women due to the COVID-19 pandemic as well as their potential impact on pregnancy care; and (4) strategies to improve COVID-19 vaccine confidence and uptake among pregnant minority women in the US. COVID-19 vaccine hesitancy among minority mothers can be mitigated by community engagement efforts that focus on COVID-19 vaccine education, awareness campaigns by trusted entities, and COVID-19-appropriate perinatal counseling aimed to improve COVID-19 vaccine confidence and uptake.",
+    "authors": [
+      "D. Alcendor",
+      "Patricia Matthews-Juarez",
+      "D. Smoot",
+      "James E. K. Hildreth",
+      "M. Tabatabai",
+      "D. Wilus",
+      "Katherine Y. Brown",
+      "P. Juarez"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/35a8eee23fda62026cd2120e82bb4d19ac3d34d9"
+  },
+  {
+    "title": "Factors associated with COVID-19 vaccine hesitancy: a community-based household survey in Pune district of Maharashtra, India",
+    "abstract": "In the wake of the coronavirus (COVID-19) pandemic, the development of the COVID-19 vaccine became a game-changing tool. However, the rapid development of the COVID-19 vaccine gave rise to various myths, misconceptions and hesitancies among people. A community-based household survey was conducted by the trained healthcare workers, i.e., Accredited Social Health Activist (ASHA) and Anganwadi Worker (AWW) in their respective villages. Information on socio-demographic profile, vaccination status and reasons for vaccine hesitancy in community members was collected during the survey. Details of the vaccination status of community members were cross-examined with government vaccination data. After survey administration, continuous sensitisation to every individual was carried out by trained healthcare workers making people aware and motivating them to vaccinate. Healthcare workers constantly followed up on individuals showcasing hesitancy, thereby building up vaccine confidence in them. Out of the total study population (N=12,812), 90.1% were found eligible for COVID-19 vaccination (>18 years), 57.8% individuals had received both doses of COVID-19 vaccine, and 23.2% had received only the first dose (partially vaccinated), whereas 9.1% were unvaccinated. The most reported vaccine hesitancy response was being worried about vaccine side effects at 9.2%. The other set of reasons reported among aged 60 years and above were being old (1.6%) and having a co-morbid condition (1.1%). Having an underlying illness was also reported in both age groups (45-60 years, and 60 years and older). Additionally, 18.2% of the unvaccinated and partially vaccinated eligible individuals reported planning to get vaccinated soon. The study reported many myths and misconceptions, and hesitancies related to the COVID-19 vaccine among the community members being a major lag in the vaccine acceptance and uptake. Therefore, adequate vaccine education is much needed to engage the non-medical group, as they mostly tend to have positive interactions with the community members. On that account, sustained community-based health promotion intervention can be effective.",
+    "authors": [
+      "S. D. Marathe",
+      "Shalini Bassi",
+      "Nishibha Thapliyal",
+      "Bhrunal Prakshale",
+      "V. Shah",
+      "Subhash Salunke"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/277b521d0888af5e34730dd3506264d7b4741fdb"
+  },
+  {
+    "title": "DEVELOPMENT AND VALIDATION OF COVID-19 VACCINE\nHESITANCY SCALE FOR GENERAL AMONG PAKISTAN\nPOPULATION",
+    "abstract": "The purpose of the present study is to develop and validate the COVID-19\nVaccine Hesitancy Scale through Exploratory Factor Analysis (EFA) and the\nresulting factors confirmed through Confirmatory Factor Analysis (CFA). The\nsample of EFA comprised the general population (n = 311) in which male (n =\n140) and female (n = 171) ages ranged from 18 to 60 years (M= 26.38 and SD\n=6. 79). Factor loading of .30 was set as selection criteria of an item in the\nscale. Using Varimax rotation method, EFA presented five meaningful factors\nfor COVID-19 Vaccine Hesitancy Scale and factors named as Belief in myths &\nconspiracy theories (14 items), Perceived effectiveness (10 items), Religiosity (4\nitems), Social and Media Influence (9 items), and Misinformation (5 items). For\nCFA sample of the general population (n = 300) in which male (n =150) and female (n =150) ages ranged from 18 to 60 years (M=24.56 and SD =4.95).\nAlpha reliability for the subscales of the COVID-19 Vaccine Hesitancy Scale\nwas calculated, it was .95(Belief in myths &conspiracy theories), .92 (Perceived\neffectiveness), .61(Religiosity), .72(Social and Media Influence),\n.72(Misinformation). Overall COVID-19 Vaccine Hesitancy Scale developed for\nthe general population is a reliable and valid measure to assess COVID-19\nvaccine hesitancy in Pakistani culture.",
+    "authors": [],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/71a16543217341aff6a0b7ab74e37daefdd08b6e"
+  },
+  {
+    "title": "Development and Validation of COVID-19 Vaccine\nHesitancy Scale for General Pakistani Population",
+    "abstract": "The purpose of the present study is to develop and validate the COVID-19 Vaccine Hesitancy Scale through Exploratory Factor Analysis (EFA) and the resulting factors confirmed through Confirmatory Factor Analysis (CFA). The sample of EFA comprised the general population (n = 311) in which male (n = 140) and female (n = 171) ages ranged from 18 to 60 years (M= 26.38 and SD =6. 79). Factor loading of .30 was set as selection criteria of an item in the scale. Using Varimax rotation method, EFA presented five meaningful factors for COVID-19 Vaccine Hesitancy Scale and factors named as Belief in myths & conspiracy theories (14 items), Perceived effectiveness (10 items), Religiosity (4 items), Social and Media Influence (9 items), and Misinformation (5 items). For CFA sample of the general population (n = 300) in which male (n =150) and female (n =150) ages ranged from 18 to 60 years (M=24.56 and SD =4.95). Alpha reliability for the subscales of the COVID-19 Vaccine Hesitancy Scale was calculated, it was .95(Belief in myths &conspiracy theories), .92 (Perceived effectiveness), .61(Religiosity), .72(Social and Media Influence), .72(Misinformation). Overall COVID-19 Vaccine Hesitancy Scale developed for the general population is a reliable and valid measure to assess COVID-19 vaccine hesitancy in Pakistani culture.",
+    "authors": [],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/a1104c6a3687c61a278e6530f42a134460b02ed2"
+  },
+  {
+    "title": "Knowledge, Attitudes, Myth, and Perceptions towards COVID-19 Vaccine among typical educated Sub-Saharan Africa: A Web-Based Survey",
+    "abstract": "Abstract The covid-19 pandemic is a major health challenge for society and health workers globally. The study sought to determine the effect of perception, attitudes, and myths on vaccine acceptance in residents in West African countries. This cross-sectional study of 1170 respondents was conducted while maintaining social distancing measures in sub-Sahara Africa. Data was collected using a validated self-administered questionnaire via social media platforms. Data gathered were analysed using SPSS version 25.0 for windows. Of 1170 responses received, 59.5%, 51.8%, 70.8%, and 39.5% were from respondents between 30–39 years, males, from English-speaking countries, and had a college degree or above. Respondents had good knowledge (96.999%) of the COVID-19 vaccine, and information about the vaccine was mainly through social media/internet (55.6%) and media houses (23.8%). The overall results show that the majority of the respondents, 96.80% were aware of the Vaccine through social media. However, the findings from covariates show that myth and perception, gender, educational qualification, and employment status have a significant impact (p<0.05) on COVID-19 vaccine acceptance. The study suggests that people in Sub-Saharan Africa need to be reassured of the importance of vaccinations through proper information dissemination. Thus, information highlighted a need for Stakeholders and Policymakers to contribute to holding an optimistic attitude and perception free of devoid of misconceptions circulating on social media towards vaccine acceptance.",
+    "authors": [
+      "Nweze Chiamaka Nneoma",
+      "Peter Davis Sumo",
+      "Houlda Fambo",
+      "Lillian Moshoeshoe",
+      "Ishmael Arhin",
+      "Roseline Yocelle Semaho Goussebeo",
+      "Oloulade Babatounde Moctard"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/82eb7b2e7d757d49b88df39b8277c148a00513da"
+  },
+  {
+    "title": "ASSESSMENT OF KNOWLEDGE, ATTITUDE & PERCEPTION TOWARDS COVID-19 VACCINE AMONG THE RURAL AND URBAN POPULATION OF NAVI MUMBAI: AN ALARMING SCENARIO",
+    "abstract": null,
+    "authors": ["A. Vidushi"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/f4c09644f205bae4e1eaea29bf8560d00d83f558"
+  },
+  {
+    "title": "Predicting COVID-19 Vaccination Status and Rule Following and Violating: Psychosocial Measures, Coping Styles, and Vaccine Myth Beliefs",
+    "abstract": null,
+    "authors": ["P. Morley"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/5950a6201bb1029113ac4f8733846cb7bfc74f68"
+  },
+  {
+    "title": "Myths and Misconceptions of Covid-19 Vaccination in Women of Reproductive Age",
+    "abstract": "Myths and Misconceptions spread very fast as compared to facts in the current situation of social connectivity. The same is about Covid-19 infection and its vaccine in women of reproductive age and in pregnancy. We need to correct these misconceptions with evidence which is the objective of this editorial about covid vaccination.",
+    "authors": ["Lubna Riaz Dar"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/9da99fe2b4a6f218f3e6ff53eca4f31422e885fb"
+  },
+  {
+    "title": "Unmasking the COVID-19 vaccination myths: intervention through collaboration",
+    "abstract": "Dear Editor, In a recent special article published in this journal, the authors presented the different myths surrounding the coronavirus disease 2019 (COVID-19) vaccines in Africa that impact their acceptance. The two common myths that respondents agreed with were that “since vaccines for COVID-19 have been developed, we can make vaccines for the common cold, human immunodeficiency viruses, and other diseases” and that “researchers rushed the development of the COVID-19 vaccines; therefore, it is not very effective, safe and cannot be trusted [1].” With the sample myths, I have come to realize how valid is this claim which also increases the issue of vaccine hesitancy in the Philippines. Therefore, this correspondence aims to determine some popular myths in the Philippines which hinder a full vaccine rollout and then explore concrete ways on how the government can strategically combat such hindrances for a successful vaccination campaign. In a study that examined vaccination narratives and challenges as experienced and observed by Filipinos during the early vaccination period, some of the most common myths concerning the vaccine are identified [2]: first, the life span of those who are vaccinated is shortened and they only have 2 to 3 years to live; second, vaccines are viewed as unnecessary and insufficient to prevent disease; third, the young ones do not need the vaccines but only those at high risk especially the elderly and persons with comorbidities. More myths have also circulated on social media that caused fear such as the vaccine can give you COVID-19 since it contains the virus; those who got infected and recovered from the COVID-19 do not need the jab anymore; the vaccine can cause infertility among women, and persons with an allergy should not get the vaccine [3]. There are various ways proposed by researchers to battle these myths and achieve a higher vaccination rate. One of which is utilizing the online platform since it is considered the most relevant approach during the pandemic where restrictions and lockdowns in many areas are implemented. Equipping the official websites of the government’s health department with factual information regarding the disease and vaccine efficacy is a must. Every country should strategically enrich its website with updated sections and easy-to-understand infographics. This is fortunately done in the country but not consistently actualized. There are still many areas, especially in far-flung provinces, where accessibility is a problem which means that there is a slow to an unavailable internet connection. Some entries on the website are also not regularly updated. Through a well-planned collaboration between the private and government sectors, © Korean Vaccine Society. This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (https://creativecommons.org/licenses/ by-nc/4.0) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited. K O R E A N V A C C I N E S O C I E T Y",
+    "authors": ["D. Cordero"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/740001dc46d50b0a5616b6415681ebe135bfd4ca"
+  },
+  {
+    "title": "COVID 19 Vaccination Related Misconceptions and Myths",
+    "abstract": "Background: Mass vaccination is the most effective way to fight against COVID 19 but a significant number of people are unwilling to be vaccinated, mainly due to misinformation and false beliefs, associated with this drive. The objective of this study was to identify these misconceptions and myths and associate them with sociodemographic factors. \nMethodology: This cross sectional survey was conducted on 562 residents of Rawalpindi and Islamabad from July 2021 to November 2021. Data was collected through structured questionnaire both in English and Urdu, analysed by SPSS version 23. χ2-test was used to check the association of categorical data with sociodemographic factors. \nResults:  Out of all the participants, 328 (58.4%) had received COVID19 vaccination. Among these vaccinated individuals, 81.8% were graduates or above and 74.2% had family income more than Rs.50,000. Out of total, 40.7% respondents believed that, vaccine is harmful for diabetics, hypertensive and heart patients, 40.6% agreed that it is not safe for pregnant or lactating women and 40.4% assumed that they have acquired immunity through natural infection. A strong association of misconceptions and myths was found with residence (p value 0.0001), educational level (p value 0.0010) and monthly income (p value 0.0001). \nConclusion: Several misconceptions and myths are related with COVID 19 vaccination, strongly influenced by various socio demographic. Hence, there is a need to launch various campaigns regarding the safety and effectiveness of vaccination. \nKey words: COVID-19, Misinformation, Vaccine",
+    "authors": [
+      "Dr Tamkeen Nishat Jaffry",
+      "Dr Hina Shan",
+      "Dr Rehma Gillani",
+      "Dr Uzma Hassan",
+      "Dr Bismillah Sehar",
+      "Rubab Zulfiqar"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/45ec480bee2845afdd0a3fe31698099abda1b921"
+  },
+  {
+    "title": "ASSESS THE MYTHS AND MISCONCEPTIONS REGARDING COVID-19 VACINATION AMONG ADULTS",
+    "abstract": "Background: Prior to the COVID-19 Pandemic, an established body of attitude existed about the structure and function\nof corona virus causing diseases like severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome\n(MERS). This attitude accelerated the development of various vaccine platforms during early 2020.[1] The initial focus of\nSARS-CoV-2 vaccines was on preventing symptomatic, often severe illness. The study was conducted on Method:\n15/02/2022. The research approach used to the study was quantitative approach, design was non experimental,\ndescriptive survey research design, by using Non probability convenient sampling technique 100 adults of urban area at\nKolhapur were selected. Myths and misconception scale was used which consist of 30 items to assess the level of myths\nand misconception of covid – 19 vaccination. Average time given for data collection to each sample was 30 min\napproximately. Data was analyzed by using mean, median, mode, Chi square test for finding association. The Result:\nresult of the study revealed that 100 samples were selected conveniently from selected area of bawada, of which 58%\nwere females and 42% males, Most of them were in the age group of 20 – 30 years. Mean attitude score of the samples was\n14.62 towards covid-19 vaccination. The findings of the study revealed that majority 92 (92%) of the sample had Poor\nMyths and Misconceptions, 6 (6%) of them had Moderate Myths and Misconceptions and 2 (2%) were having High Myths\nand Misconceptions towards covid-19 vaccination. The findings reveal that majority of the samples in Conclusion:\nurban area had Poor Myths and Misconceptions towards covid-19 vaccination.",
+    "authors": ["Anmol Mohan Pawar"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/ad1b7d5d5416f9e48a04ba14d8680a7915f68fcc"
+  },
+  {
+    "title": "Knowledge About Facts and Prevailing Myths Regarding Covid - 19- A cross-sectional study",
+    "abstract": "Introduction: First reported in december 2019. COVID made the whole world as crucial and make everyone to be in home. Epidemiologically link exposure from seafoods in city of Wuhan Of china. COVID- 19 fast spreading infection on recent time. Social media campaigns make public to use online education, hand hygiene, and social distance. Follow what the government said COVID-19 caused a plethora of human life. Scientist and medical experts are made whole against the COVID by producing the vaccine. Follow what the government said COVID-19 caused a plethora of human life. Scientist and medical experts are made whole against the COVID by producing the vaccine. Therefore the Aim of the study to make aware about knowledge about facts and prevailing myths regarding COVID- 19 Material And Method: This study employs a online survey method to make aware about facts and prevailing myths regarding COVID-19 among general public this survey link was promoted through social media or direct survey. Ethical approval was obtained from the Institutional Review Board in Saveetha University. Data was entered in Microsoft excel sheet after collection and was analysed using SPSS software Results : In this survey we found that the most of the people ( 89%) maintained social distance at all times. 77% of people wash their hands frequently. 89% of people maintain safety precautions when they travel in public transport. p-value: 0.848,(p>0.05) chi-square test was done and association was found to be statistically not significant. Conclusion : Based on the present study it can concluded that university degree holder have more knowledge than the post secondary school and secondary school",
+    "authors": ["I. Priyan", "J. Prabakar"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/6affe03c7cba9d5907b3ec768571589affb029dc"
+  },
+  {
+    "title": "COVID-19 vaccine insights: The news beyond the headlines.",
+    "abstract": "Here is key intelligence on the recommended primary series, boosters, breakthrough infection, adverse events, special population vaccination, vaccine myths, and what the future might hold.",
+    "authors": ["John L. Kiley", "M. Dolan", "Jessica T. Servey"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/21a99966f2e2f15a0daaaaa876b0d08e446b6ecf"
+  },
+  {
+    "title": "Reasons and Sources of Hesitancy Against COVID-19 Vaccine: A Cross-Sectional Study among General Public in Pakistan",
+    "abstract": "Introduction:Since Coronavirus Disease-2019 (COVID-19) is a respiratory infection which is transmitted by respiratory droplets, it has now spread all across the globe. There are various myths and misconceptions about this vaccination that act as a prime barrier to vaccinate majority of the population. Methods: A cross-sectional-study was performed from all over Punjab province using convenience sampling technique. A sample size of 400 was gathered in this study by o digital and hardcopy questionnaires after the participants gave their consent. Results: The willingness to vaccinate against COVID-19, was only 28.0% while the greater remainder of 72% opted for ‘no’ or ‘maybe’. Our study prevailed that the most common reason of hesitancy among the population was that vaccine can cause blood to clot and people may die (15.6%). And the most frequent source emerged to be social media by 23%. Discussion: The study revealed that people with no or low educational status were more uncertain or hesitant towards vaccine administration as well as those belonging to ages 41-50 years.",
+    "authors": [
+      "A. Usman",
+      "A. A. Qureshi",
+      "A. Munawar",
+      "A. Mujeeb",
+      "H. Naseer",
+      "Tahreem Fatima",
+      "Mohammad Amin Qadeemi",
+      "Sohail Arshad",
+      "Hekmatullah Nursi",
+      "R. Haider",
+      "Muhammad Sohaib"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/f3b59c2481bfb0fbf76589985cb3266f8047d021"
+  },
+  {
+    "title": "Appropriateness of Covid-19 vaccine and misconceptions among Pakistani population: a web-based national survey",
+    "abstract": "Background: Uncertainty about any kind of medication will be a potential threat. Hesitancy regarding vaccination is a danger to overall global public health. Since it’s the first-time global efforts were made to develop a vaccine against the pandemic of COVID-19. So, this is unknown its acceptance in the community. Getting information regarding the key determinants that influence and potential myths about the vaccine might help full to develop strategies that can help improve the vaccination programs globally. This study aimed to assess the prevalence of the acceptance of the COVID-19 vaccine, its determinants, and myths about the vaccine among people in Pakistan.\nMethods: A descriptive web-based based study was done, using snowball sampling, bilingual, and a self-administered close-ended questionnaire was sent to participants through google forms on social media platforms and email.\nResults: A total of 463 participants from all over Pakistan showed the minimum level of secondary education. The occupational status of the participants showed that (45.1%) were currently employed. Vaccination and their perception can be influenced by educational/socioeconomic statuses, participants were also asked about factors they considered to be the most influential in terms of encouraging and discouraging. Fear of getting an infection was the most encouraging factor (39.1%) for people to get vaccinated, whereas adverse effects via social and digital media were the most demotivating factor (36.5%).  Participants were asked the reasons for their reluctance; most were afraid of an allergic reaction to the vaccine. The various myths and misconceptions associated with the Covid vaccine showed by logistic regression analysis for factors that were potentially associated with the intake of covid vaccination.\nConclusion: Addressing educational/sociodemographic factors relating to the COVID-19 vaccination might help encourage the uptake of the vaccination program globally which also tackles future pandemics.",
+    "authors": [
+      "M. Panhwar",
+      "P. Memon",
+      "Sadaf Shamshad",
+      "Zulalikhan Baloch",
+      "Wajiha Anzar",
+      "Qasier Ali Baig"
+    ],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/25cd0ba42114a16732761577b8bb944a4c68f990"
+  },
+  {
+    "title": "Dispelling COVID-19 Myths:",
+    "abstract": "Over the last 200 years since the first vaccine was used in the U. S. to prevent smallpox, some Americans have been fearful and mistrustful about inoculation as a means of protection from lethal viruses.1 Historically, Delawareans have been no less suspicious. For instance, despite the efficacy of vaccination for smallpox, opponents to inoculation continued throughout the 1920s. Opposition was especially fierce when compulsory vaccination was enacted. In fact, in 1926, while at a health office in Georgetown, Delaware to vaccinate residents, a retired Army lieutenant and a city councilman led a violent and armed mob to run the vaccinators out of town.2",
+    "authors": ["M. Saunders"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/dad9b5736e4dc963a7fb2ea244e76649f1cfee32"
+  },
+  {
+    "title": "Semiotics Analysis of Covid-19 Vaccine Photos in Waspada Newspaper",
+    "abstract": ". The semiotic study seeks to uncover the meaning of the message and goodness, as well as the signiﬁcance of the sign on the news of the COVID-19 immunization photo published in the Waspada Newspaper. This analysis is based on denotative and connotative meanings and myths. The data used are images of medical personnel performing COVID-19 immunizations for youngsters using a semiotic analysis approach, because semiotic analysis explores how mankind understands things that cannot be confused by explaining them. News of photos of COVID-19 vaccinations for children shows that photos of people’s activities who are enthusiastic about participating in government programs to comply with health protocols when the COVID-19 pandemic hits Indonesia cannot be separated from the city of Medan. From the results of observations, it is proven that the news of the COVID-19 vaccination photo organized by the government can be a solution to prevent the spread of the COVID-19 virus and prove that the public cares so much about health. This element of concern for health can be seen in the planning of taking pictures during the child’s vaccination activity. The composition in focus on the point of interest (main object) in the image and the arrangement of a number of objects by the photographer in setting the photographer’s position by taking into account the distance between them. To provide health care, the picture shoot results are also displayed in the form of a large-sized display (close-up).",
+    "authors": ["Muhammad Said Harahap", "Muhammad Ridho Allifa"],
+    "year": 2022,
+    "url": "https://www.semanticscholar.org/paper/21851b12a0639322882a1da63915915abc759407"
+  },
+  {
+    "title": "Epidemiology, Risk, Myths, Pharmacotherapeutic Management and Socio- economic Burden due to Novel COVID-19: A Recent Update",
+    "abstract": "The novel human coronavirus disease (COVID-19) is the major pandemic throughout the globe and its occurrence is due to the presence of severe acute respiratory syndrome coronavirus (SARS-CoV2). That began from Wuhan, Hubei province of China in late 2019 and afterward drastically spread worldwide. It effects around 213 countries and territories around the globe and have reported a total of 8,128,490 confirmed cases of COVID-19. As an unprecedented global pandemic it sweeps the planet and affects each and every human being either physically, mentally or economically. The most common symptoms of COVID-19 are pyrexia, tiredness, and dry cough but in some cases it is asymptomatic. It can be diagnosed by a health care provider based on symptoms and confirmed through laboratory tests. Till date there is not even a single drug or vaccine that can be used for the effective treatment for this disease. The international community is to introduce a global synchronized strength to prevent the outbreak that needs a strong public health response, high level political commitment and sufficient funding. The aim of this review article is to summarise the recent state of awareness, epidemiology and social impact on surrounding due to outbreak of COVID-19 pandemic.",
+    "authors": [
+      "Sarfaraz Ahmad",
+      "A. Shoaib",
+      "M. Ali",
+      "Md. Sarfaraz Alam",
+      "N. Alam",
+      "M. Ali",
+      "Md. Ali Mujtaba",
+      "Ayaz Ahmad",
+      "Md. Salahuddin Ansari",
+      "M. D. Ali"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/a0b92ee11793d3bbf9c2932a1c10c0e482faad34"
+  },
+  {
+    "title": "Myths, beliefs, and conspiracies about COVID-19 Vaccines in Sindh, Pakistan: An online cross-sectional survey",
+    "abstract": "Abstract Background Pakistan has already encountered intense opposition\nto polio vaccination due to myths and misinformation, now the\nunfavorable opinions of COVID-19 vaccinations among the population would\nhave catastrophic consequences for attempts to end the pandemic. Methods\nA web-based cross-sectional study was conducted in the general\npopulation of Sindh, Pakistan in January 2021. 31 items based on\nvaccines availability, safety, and myths, the questionnaire was designed\nand randomly distributed through a google form link. Results were\nanalyzed using descriptive and Chi-square tests. Results A total of 774\nresponses were recorded from 23 districts of Sindh, Pakistan. The\nmajority of participants (n=00, 00.0%) were not aware of the presence\nof the COVID-19 vaccine in Pakistan. Results found the significant\nrelationship of conspiracies and myths with an education level of\nparticipants, to make Muslims infertile, illiterate showed (Yes n=45,\nNo=27) while postgraduate (Yes n=11, No=88) (χ2 = 109.6, P>\n0.000). Participants showed doubt about the safety of vaccines, (Yes n=\n464, 59.9%, No= 310, 40.1%). Other responses related to side effects\nof the vaccine were also highly significant, participants showed that\nvaccine side effects (Yes n= 462, 59.7%, No= 312, 40.3%), Pregnant or\nbreastfeeding women should not get vaccinated (Yes n= 468, 59.8%, No=\n311, 40.1%) and people with underlying conditions should not get\nvaccinated (True n= 389, 50.3%, False= 385, 49.7%). Conclusion The\nproportion of varying public doubts in vaccines’ safety and efficacy and\nthe presence of myths, conspiracies will be a major barrier to vaccine\nuptake.",
+    "authors": ["Qamar Abbas", "Fatima Mangrio", "Sunil Kumar"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/12d7e0397cbade95ccceeeec9fce8796dc7bb688"
+  },
+  {
+    "title": "Acceptance of COVID-19 Vaccine in Pakistan: A Nationwide Cross-Sectional Study",
+    "abstract": "Introduction The coronavirus disease 2019 (COVID-19) vaccine is available across various countries worldwide, with public-private partnerships ensuring all individuals are vaccinated through a phased approach. Irrespective of the geographical spread, several myths pertaining to the COVID-19 vaccine have stemmed, ultimately limiting the national administration of vaccines and rollouts. This study assessed the acceptance of the COVID-19 vaccine among the general public in Pakistan. Methods A pre-validated questionnaire was administered from January 2021 to February 2021 to assess the public attitude and acceptance of the COVID-19 vaccine. Logistic regression analyses were run to identify factors associated with the acceptance among the population. Results A total of 936 responses were elicited, where 15% perceived their risk of being infected at 20-30% with an overall 70% agreeing to be vaccinated if recommended. Multivariate analysis identified higher acceptance in the male gender, healthcare workers, and students. Of all, 66% respondents chose healthcare workers and public officials, whereas 15.6% chose scientific literature, and 12.9% chose social media as the most reliable source of COVID-19 information. Conclusion Given the relatively greater trust in healthcare providers for information regarding COVID-19, healthcare workers ought to be on the frontline for vaccine campaigns and public outreach efforts, with governmental efforts in addition to the promotion of scientific materials for population-level understanding.",
+    "authors": [
+      "M. A. Qamar",
+      "Omar Irfan",
+      "R. Dhillon",
+      "Areesh Bhatti",
+      "Mir Ibrahim Sajid",
+      "S. Awan",
+      "W. Rizwan",
+      "A. Zubairi",
+      "Z. Sarfraz",
+      "J. Khan"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/93286c74680e326dea936208a0e4ddb8161b587d"
+  },
+  {
+    "title": "Impact of an Education Intervention on COVID-19 Vaccine Hesitancy in a Military Base Population",
+    "abstract": "ABSTRACT Background Coronavirus disease 2019 (COVID-19) vaccine hesitancy is a major impediment to achieving herd immunity and overcoming the current pandemic. Our aim was to decrease the prevalence of vaccine hesitancy through an education intervention. Method An education intervention, consisting of a PowerPoint presentation addressing the two mRNA COVID-19 vaccine concerns/myths and a question and answer panel comprising health care providers from various specialties, was implemented to address vaccine hesitancy among personnel associated with Wright-Patterson Air Force Base through a series of virtual and in-person seminars. Participants completed a post-seminar survey as a retrospective self-assessment to identify attitudes and views surrounding vaccine hesitancy and the impact of the education intervention. Chi-squared test was used to examine relationships between categorical variables, and multiple logistic regression was used to identify risk factors for vaccine hesitancy pre- and post-seminar. All analyses were done using SPSS Statistics Version 25.0 (IBM, Armonk, NY). Institutional Review Board approval was not obtained before this study as it began as a non-research initiative and received non-research determination post hoc. Results Five hundred participants completed the survey. Mean age was 44.7 years with 13.4 and 86.6% medical and non-medical personnel, respectively. Nearly all (98.8%) had not received their first shot of the vaccine series. 402 (80.9%) were receptive to vaccination, and 95 (19.1%) were hesitant post-seminar. Of the 139 participants who reported they were initially hesitant after our intervention, 50 (36%) indicated that they were now receptive to the vaccine, while 89 (64%) remained hesitant. Of those 50, 48 (96%) had moderate to great amount of trust in COVID-19 vaccine information presented by physicians/other providers. Six respondents who wanted the vaccine before the intervention no longer wanted the vaccine. A medical occupation (OR = 4.85, 95% CI = 2.63-8.96, P < .001), little or no trust in COVID-19 vaccine information from physicians/other providers (OR = 19.48, 95% CI = 7.31-51.90, P < 0.001), and being age 30 or younger (OR = 1.81, 95% CI = 1.02-3.2, P = 0.041) were independent predictors of vaccine hesitancy. Trust in providers was a significant factor in change of intent from vaccine hesitant to receptive post-intervention (OR 0.13, 95% CI = 0.03-0.59, P = .008). Age and occupation were not significant factors associated with change in intent. Conclusion Our education intervention was effective in reducing COVID-19 vaccine hesitancy in a military base population. Study limitations include applications toward other military and non-military populations, the possibility of nonresponse bias, and absence of prior validated interventions. Area for future studies includes improvement upon educational intervention, development of other effective methods, and application of intervention in other populations.",
+    "authors": [
+      "Peter C Li",
+      "Samuel R Theis",
+      "D. Kelly",
+      "T. Ocampo",
+      "Andrew Berglund",
+      "Damien Morgan",
+      "R. Markert",
+      "Evan Fisher",
+      "Kathryn M Burtson"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/7bb32229589ae09a96363ed25f7596daf9616631"
+  },
+  {
+    "title": "COVID-19 vaccines and vaccine hesitancy: Role of the allergist/immunologist in promotion of vaccine acceptance.",
+    "abstract": "BACKGROUND\nVaccine hesitancy has been defined as a delay in acceptance or refusal of vaccines, despite the availability ofvaccine services. In the past, despite an impressive record of vaccine effectiveness in the United States, several factors havecontributed to a decreased acceptance of vaccines that has resulted in outbreaks of infectious diseases, e.g., measles. More recently, vaccine hesitancy has spread to coronavirus disease 2019 (COVID-19) vaccines. There are many causes of vaccine hesitancy, such as misinformation, fallacies, and myths, that have contributed to vaccine hesitancy.\n\n\nOBJECTIVE\nThe purpose of the present report is to address the many causes of vaccine hesitancy and to suggest ways that the allergist/immunologist can be involved in the promotion of vaccine acceptance.\n\n\nMETHODS\nThe current COVID-19 vaccines were reviewed, together with their mechanisms(s) of action and adverse reactions to them.\n\n\nRESULTS\nThe many causes of vaccine hesitancy include many doubts and concerns related to COVID-19 vaccines as well asa diminished level of confidence and trust by segments of the public in the nation's leaders in government, medical, and business communities, that those groups once enjoyed.\n\n\nCONCLUSION\nVaccination with COVID-19 vaccines is the only way that COVID-19 will be eliminated or at least controlled today, and vaccine hesitancy is the potential nemesis. The present report describes how the allergist/immunologist not only plays a major role in the delivery of specialized therapy of COVID-19 but also in educating the public with regard to the importance of COVID-19 vaccines, in dispelling misinformation, and in promoting trust for vaccine acceptance but must be informed with the most accurate and current information to do so.",
+    "authors": ["J. Bellanti"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/842683a8b91dd22ac0b710af4a76298e5b8d1da5"
+  },
+  {
+    "title": "Witchcraft and Myths about Covid-19 in Iraq",
+    "abstract": "Coronavirus disease (Covid-19) is an infectious disease caused by the SARS-CoV-2 virus that has recently appeared in China and had caused a million of infections and thousands of deaths. This epidemic has spread widely, such as wildfire and lethality in European countries and the United States of America. Those countries have faced this epidemic in scientific ways, and have taken measures of regional isolation and quarantine, as well as experimental and clinical research in pursuit of a successful drug or vaccine (Al-Kuraishy et al., 2020a; 2020b).",
+    "authors": ["H. Al-kuraishy"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/5eb547960a449741b395eb508f14cd0a48f98d1b"
+  },
+  {
+    "title": "Review of COVID-19 vaccine",
+    "abstract": "Coronavirus disease 2019 (COVID-19) accounts for over 92 million confirmed cases worldwide, with over 2.06 million deaths. In the past year, more than 290 candidate vaccines have been tested; COVID-19 vaccine development was sped up, with shortened timeline, due to the urgent global need in the face of the pandemic. In addition, people with the highest risk of contracting the disease, such as health workers with a high risk of exposure, elderlies, and people with underlying comorbidities, were prioritized with vaccination rollout. The article narratively reviewed original and review articles available on PubMed and Google Scholar related to the theme to provide up-to-date information. The different templates developed and studied for COVID-19 vaccines include the whole-virus vaccine, viral vector vaccine, nucleic acid (deoxyribonucleic acid and ribonucleic acid), and protein subunit vaccine. Myths impede vaccine uptake in this part of the globe. Adopting these myths leads to sharing and spreading, which negatively impacts the prevention of COVID-19 and vaccine uptake. Adverse event following immunizations (AEFIs) is classified based on severity, from minor to severe. The minor ones are common events that pose no potential health risks to the receiver of the vaccine. The type determines the safety profile, severity, and frequency of AEFIs observed with the vaccine administration. Overall, this pandemic has heightened the global level of threat awareness; it has also provided motivation to prepare for future pandemics by developing new vaccines.",
+    "authors": [
+      "O. Efuntoye",
+      "O. Obafemi",
+      "O. Folayan",
+      "Abimbola Amoo",
+      "Habeeb Ogundipe",
+      "U. Enebeli",
+      "V. Ogbonna",
+      "K. Kanmodi",
+      "Toluwani Olalere",
+      "Lawson Obazenu",
+      "O. Adebayo"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/0034b929eb6f55d18f41056cad78b2ea814e964c"
+  },
+  {
+    "title": "Dutch Perspectives Toward Governmental Trust, Vaccination, Myths, and Knowledge About Vaccines and COVID-19",
+    "abstract": "This survey study measures how opinions on trusting government and misconceptions about the COVID-19 vaccine are associated with vaccine hesitancy in the Netherlands.",
+    "authors": [
+      "H. Yousuf",
+      "S. van der Linden",
+      "Ted van Essen",
+      "D. Gommers",
+      "E. Scherder",
+      "J. Narula",
+      "L. Hofstra"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/bfb30cc7e29ab904b53a425f86cd47994febc1ce"
+  },
+  {
+    "title": "Public hesitancy to COVID‐19 vaccine and the role of pharmacists in addressing the problem and improving uptake",
+    "abstract": "COVID‐19 is one of the worst pandemics in recent human history, causing huge health, economic, and psychosocial damage. Since the pandemic hit, several unsubstantiated claims regarding exposure, transmission and management have been disseminated. Misinformation and associated public confusion now extend to the COVID‐19 vaccines, spanning from claims based on possible links between some vaccine types and rare blood clots, to baseless claims. As a result, the public’s trust in COVID‐19 vaccines has been eroded, fuelling an already troubling trend of vaccine hesitancy. As medication experts and the most accessible healthcare providers, pharmacists are well equipped with the required skills and knowledge to improve COVID‐19 vaccine uptake by taking roles that range from dispelling myths, to providing reliable evidence‐based information, through to vaccine administration. This paper discusses public hesitancy to COVID‐19 vaccines, major contributing factors, and the role pharmacists can play in reducing hesitancy and increasing vaccine uptake.",
+    "authors": [
+      "B. Wubishet",
+      "W. Tesfaye",
+      "Md Nuruzzaman Khan",
+      "Jackson Thomas",
+      "H. Tuffaha",
+      "T. Comans",
+      "P. Scuffham",
+      "Daniel A. Erku"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/496af270cd69773b394676a8cfe6e6bd85fbb740"
+  },
+  {
+    "title": "Busting of myths and misconceptions about breast feeding during COVID-19 pandemic and its societal importance: a brisk review",
+    "abstract": "The outbreak of the COVID-19 infection (novel corona virus disease in 2019) caused a plethora of challenges worldwideand has affected all aspects of human lives. The health care system has been affected the most, with the exponential rise in the number of confirmed cases and deaths per day across the World. While scientists and medical experts are racing against time to invent a vaccine, the grim figures simply point to the fact that prevention is indeed the cure, at least in these circumstances. This is especially important for the high-risk group including elderly population, those with a compromised immune system, chronic illness and pregnant women. Since a woman’s immune system gets compromised and is in constant flux during pregnancy, it makes them more susceptible to contracting infections. While these infections primarily pose a threat to the mother, they can also infect the fetus or the baby during pregnancy or after the delivery. The protection, promotion, and support of breastfeeding are a priority for public health and health care system continuously compiling evidence on the effect of COVID on mothers and children. Breastfeeding and caring for the baby is a sensitive issue to be dealt with in women who are suspected to be or confirmed to have a corona virus infection. With no prior experience of this ABSTRACT",
+    "authors": ["Dharitri Swain", "S. Parida", "Hrushikesh Das"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/473e45766d5f97bb8dd198f56039bd8fdd25dd45"
+  },
+  {
+    "title": "COVID-19 Vaccine Selfie: Why Does It Matter?",
+    "abstract": "ABSTRACT With the ongoing COVID-19 vaccine rollouts, it is a popular trend among vaccine recipients to share their vaccine selfies on their Facebook, Instagram, and Twitter accounts. Individuals sharing their selfies are mostly laypeople, celebrities, political leaders, and healthcare workers. The selfies are either taken during or after the administration of the vaccine and being posted while using specifically created Facebook COVID-19 vaccine profile frames. Health communication experts enumerate several beneficial values attached to vaccine selfie culture, yet there exists some skepticism as well. Today, while having the latest communication technology in our hands, we are better equipped to disseminate useful knowledge about vaccine efficacy, share latest updates about the vaccine rollouts, show others the vaccine related actual data to debunk myths, upload our vaccine selfies to encourage vaccine acceptance, and focus on the social and economic benefits of the vaccines. If anti-vaxxers are excessively using social media to reduce vaccine acceptance rate; in parallel, the public health experts, organizations, and individuals should take advantage of the social media platforms to counter the anti-vaxxers propaganda messages. Finally, a vaccine selfie coupled with positive captions and motivational hashtags would be greatly helpful in reducing vaccine hesitancy among all factions of the society.",
+    "authors": ["M. Ittefaq", "M. Abwao", "Shafiq Ahmad Kamboh"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/c18599f7520bfd6857a1b8589f920efe2f55c113"
+  },
+  {
+    "title": "A cross sectional study exploring determinants for vaccine awareness, belief and hesitancy among health care professionals regarding Covid-19 vaccine, findings from a teaching hospital based in coal capital of India",
+    "abstract": "Background: India intends to start its 1st dose of vaccination against Covid-19 on January 16th, 2021 prioritizing its frontline health care professionals with either of the two vaccines—Covaxin or Covishield. Whenever a new vaccine is launched, it is marred with controversy and myths. To understand the doubts and concerns better, this study was conducted on health care professionals working in a tertiary care hospital. Materials and Methods: Willing respondents, who are working in the institute, were administered the questionnaire asking their views on knowledge, beliefs, and reasons for hesitancy regarding Covid-19 immunization. A Likert scale was used to quantify the responses regarding participants’ knowledge, beliefs, and hesitancies regarding immunization with the available vaccines. Data were analyzed using MS office Excel sheets and JASP software was used to analyze the data thus obtained. Results: Out of 122 complete responses, we had 73 (60%) doctors, while 30 (24%) were nursing staff, the rest comprised of other health care workers, such as housekeeping staff, janitorial, etc., 66 (54%) respondents were unaware, while 25 (20%) respondents had hesitancy and 23 (18%) were having extremely negative views regarding vaccination. Some of the variables, such as age, role, marital status, gender, etc., were found to be possibly associated with these scores. Conclusion: Issues like concerns over vaccine safety, efficacy, reliability, etc., are deterrents for individuals and whole programme and vaccination drive across the nation. Time and again it has been seen that despite the vaccines’ contribution in breaking the transmission, concerns are making people either hesitant or unmotivated to get the vaccines. More dialogues from the authorities regarding the issues of concern may pave the way for more motivation to accept vaccination and increase the vaccination coverage.",
+    "authors": [
+      "Susmita Thakur",
+      "R. Rana",
+      "M. Kumari",
+      "R. R. Jha",
+      "R. Bhushan",
+      "Raj Kishore Verma"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/907163ef6b63a4e8dc5934b64db3e5dca944214d"
+  },
+  {
+    "title": "Facts and prevailing myths on COVID-19 among the general public, India: a cross-sectional survey",
+    "abstract": "The COVID-19 is a dreadful respiratory infectious disease that has rapidly spread worldwide. It is not a new disease for this World, but it shows alarming effects globally, and its sudden increase in incidence and spreadcausing misperception and fear among the general population. Due to the rapid rise in the number of confirmed cases of COVID-19 and deaths per day across the World, the health care system has been affected the most. It is expected that the morbidity and mortality associated with COVID-19 infection will increase shortly as there is no actual medication or vaccine developed to date against the virus. The occurrence of an epidemic and pandemic is a periodic phenomenon, and the community faces many challenges. Lack of knowledge and misconception often leads to arousal of myths among the community. As research into COVID-19 continues, many facts about it are continuously changing and are developing many myths in the general population regarding the prevention and management of the infection. In the extensive use of social media, these myths and fake news on corona are spreading rapidly. ABSTRACT",
+    "authors": [
+      "K. Meena",
+      "Saugandhika P. Nambiar",
+      "Y. Kumari",
+      "H. Joseph",
+      "Asha P. Shetty"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/811c6d69b7d118e71775b83e4c9b8cbefca3d82e"
+  },
+  {
+    "title": "COVID-19 Vaccine: A Way Out of Crisis",
+    "abstract": "COVID-19 pandemic has taken toll on the entire globe at physical, emotional and administrative level; straining each and every aspect to its fullest. As on April 19/2021, COVID-19 has infected more than 140 million people around world with around 3 million deaths worldwide. Covid-19 vaccine has emerged as an important direction to walk the world out of this crisis. This chapter covers the basic aspects and principles of vaccination and Immunology and its application in COVID-19 pandemic. This chapter further covers the different type of vaccines being developed, their dosage schedule and route of administration, common adverse events and myths related to them.",
+    "authors": ["Aman Sachdeva", "A. Saha"],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/bda8dda78b467ff30eb368e60a9efb79430cacb5"
+  },
+  {
+    "title": "Knowledge, Attitude, and Practice among the Healthcare Professionals regarding the myths on COVID-19 vaccination - Demystified.",
+    "abstract": "Background: COVID-19 vaccine is the mighty weapon opted by all the countries across the globe in an attempt to eradicate the fatal COVID-19 pandemic. The myths on the COVID-19 vaccine are spreading widely, causing a hindrance to this noble preventive measure. The prevalence of such myths among the healthcare professionals may be toxic and deadly. Aim & Objectives: To assess the knowledge, attitude, and practice of the healthcare professionals regarding the myths on COVID-19 vaccination and to demystify them. Materials and Methods: An 18-item questionnaire evaluating knowledge, attitude, and practice based on the existing myths on COVID-19 vaccination was circulated through Google Forms among the 412 healthcare professionals of six disciplines belonging to a private University. The responses obtained were subjected to statistical analysis using SPSS 20 software package. Results: A total of 385 health professionals participated in this study. The majority of them had medium knowledge (165) and positive attitude (273) with the mean knowledge and attitude scores of 3.82 (SD-1.55) out of 6 and 4.3 (SD-1.58) out of 7 respectively. Even though 312 participants got vaccinated, 72 of them failed to receive it. The knowledge scores showed a high statistically significant difference among the participants of different designations (p=0.001), but not with gender, field, and staff with different years of experience (p>0.05). The attitude scores were statistically different among participants of fields and designation (p<0.05) but not among genders (p=0.31) and staff with different years of experience (p=0.87). Knowledge and attitude scores showed a positive linear correlation and a high statistically significant difference (p<0.001). Conclusion: This study recommends more enhanced education programs on COVID-19 vaccination for the health professionals and demands an improved knowledge, attitude, and practice among them to achieve the goal of 100% vaccination so as to completely eradicate the COVID-19 pandemic.",
+    "authors": [
+      "L. Kumar S.",
+      "Z. Naik",
+      "A. Panwar",
+      "S. M",
+      "V. Keluskar",
+      "R. K"
+    ],
+    "year": 2021,
+    "url": "https://www.semanticscholar.org/paper/10ed727134686cc48630a55ddf6f5f766f9bcedd"
+  }
+]
