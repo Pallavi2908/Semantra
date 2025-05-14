@@ -266,7 +266,7 @@
         }, 100);
 
         try {
-          const res = await fetch("http://localhost:8000/query", {
+          const res = await fetch("https://semantra-n3od.onrender.com/query", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ query }),
