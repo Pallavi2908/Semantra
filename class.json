@@ -1,0 +1,28 @@
+{
+  "class": "ChunkData",
+  "description": "Data chunks with specter2 embeddings",
+  "vectorIndexType": "hnsw",
+  "vectorizer": "none",
+  "properties": [
+    {
+      "name": "chunk_id",
+      "dataType": ["string"],
+      "description": "unique identifier for chunk"
+    },
+    {
+      "name": "text",
+      "dataType": ["text"],
+      "description": "Content of chunk"
+    },
+    {
+      "name": "filename",
+      "dataType": ["string"],
+      "description": "File name"
+    },
+    {
+      "name": "page",
+      "dataType": ["int"],
+      "description": "Page no. in which chunk is present"
+    }
+  ]
+}

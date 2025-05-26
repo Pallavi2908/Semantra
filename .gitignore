@@ -1,0 +1,14 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+data/
+vectors/
+.vscode/
+.env
+
+converted_nested_to_flat.py
+patch_update.py
+patch_chunks.py
+chunk_patch_map.json
+merged_embeddings.json
