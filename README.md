@@ -84,3 +84,9 @@ The website is almost ready to be used locally however there's one step left. Ki
 ```
 
 - If you're using the Render free tier, the server may spin down due to inactivity. This project uses a GitHub Actions CI/CD workflow to automatically ping the backend every 14 minutes and keep it alive.
+
+
+## Future plannings ⚙️⚙️
+- Add more open-access articles on existing fields
+- Broaden the scope of Semantra to women health
+  
