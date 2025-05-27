@@ -12,3 +12,4 @@ patch_update.py
 patch_chunks.py
 chunk_patch_map.json
 merged_embeddings.json
+merge_embeddings.py
