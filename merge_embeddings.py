@@ -10,14 +10,12 @@ for file in sorted(glob("vectors/embeddings-*.json")):
             data = json.load(f)
 
         if not isinstance(data, list):
-            print(f"❌ {file} is not a list!")
+            print(f" {file} is not a list!")
             invalid_files.append(file)
             continue
 
-        # Check that each item has the expected keys
         for item in data:
             if "embedding" not in item or "chunk_id" not in item:
-                print(f"⚠️ Missing keys in {file}: {item}")
                 invalid_files.append(file)
                 break
 
@@ -27,10 +25,7 @@ for file in sorted(glob("vectors/embeddings-*.json")):
         print(f"❌ JSON decoding error in {file}: {e}")
         invalid_files.append(file)
 
-# Save valid merged data
 with open("merged_embeddings.json", 'w', encoding='utf-8') as f:
     json.dump(merged, f)
 
-print(f"✅ Merged {len(merged)} items successfully!")
-if invalid_files:
-    print("⚠️ Skipped these invalid files:", invalid_files)
+print(f" Merged items successfully!")
