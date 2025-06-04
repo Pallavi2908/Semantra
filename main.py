@@ -15,9 +15,11 @@ logging.basicConfig(level=logging.INFO)
 logger=logging.getLogger(__name__)
 
 # Load Weaviate client
+print("Connecting to Weaviate at:", os.getenv("WEAVIATE_URL"))
 client = weaviate.Client(
     url=os.getenv("WEAVIATE_URL"),
-    auth_client_secret=weaviate.auth.AuthApiKey(api_key=os.getenv("WEAVIATE_API"))
+    auth_client_secret=weaviate.auth.AuthApiKey(api_key=os.getenv("WEAVIATE_API")),
+    startup_period=30
 )
 
 class SemanticSearchClass:
