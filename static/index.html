@@ -173,7 +173,9 @@
           id="queryInput"
           placeholder="e.g. Should I get my child vaccinated?"
         />
-        <button class="search-btn" onclick="submitQuery()">Search</button>
+        <button class="search-btn" onclick="submitQuery()" type="button">
+          Search
+        </button>
       </div>
 
       <div class="suggestions lubrifont">
@@ -233,14 +235,11 @@
         }, 100);
 
         try {
-          const res = await fetch(
-            "https://semantra-s9mw.onrender.com/static/",
-            {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ query }),
-            }
-          );
+          const res = await fetch("https://semantra-s9mw.onrender.com/query/", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ query }),
+          });
 
           const data = await res.json();
           clearInterval(timerInterval);
