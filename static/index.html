@@ -9,87 +9,125 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <!-- <link href="" -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+JP+N&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
         margin: 0;
         padding: 0;
-        background-color: #0e0e10;
+        background: linear-gradient(to bottom, #0e0e10, #121212);
         color: #e6e6e6;
-        font-family: "Inter", sans-serif;
         line-height: 1.6;
+      }
+      .quintessential-regular {
+        font-family: "Quintessential", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .lubrifont {
+        font-family: "WDXL Lubrifont JP N", sans-serif;
+        font-weight: 400;
+        font-size: larger;
+        font-style: normal;
       }
 
       .container {
-        max-width: 700px;
-        margin: 60px auto;
-        padding: 0 24px;
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 60px 24px 100px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
-      }
-      /* Glossy container look */
-      .glossy-card {
-        background: rgba(28, 28, 30, 0.7);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-        border-radius: 16px;
-        box-shadow: 0 4px 20px rgba(0, 181, 255, 0.1);
-        padding: 20px;
-        margin-top: 30px;
-        transition: all 0.3s ease;
+        gap: 30px;
       }
 
-      /* Search box style */
+      h1 {
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        text-align: center;
+        color: #bfbfbf;
+        font-size: 17px;
+        line-height: 1.4;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
       .search-box {
         display: flex;
         gap: 10px;
-        align-items: center;
         background-color: #1c1c1e;
         border-radius: 14px;
-        padding: 10px 15px;
+        padding: 12px 18px;
         box-shadow: 0 0 0 1px #333;
       }
 
       .search-box input[type="text"] {
         flex: 1;
-        padding: 12px 14px;
+        padding: 14px;
         font-size: 16px;
         border: none;
         border-radius: 10px;
         background-color: #1c1c1e;
-        color: #948979;
+        color: #e6e6e6;
         outline: none;
       }
 
-      .search-box input:focus {
-        box-shadow: 0 0 0 2px #077a7d;
-      }
-
       .search-btn {
-        background-color: #077a7d;
-        border: none;
+        background-color: #00b5ff;
         color: white;
-        padding: 12px 16px;
         font-size: 15px;
+        font-weight: 600;
+        padding: 14px 18px;
+        border: none;
         border-radius: 10px;
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        transition: background 0.3s ease;
       }
 
       .search-btn:hover {
-        background-color: #077a7d;
+        background-color: #0099dd;
       }
 
-      /* Spinner & timer */
-      .loading {
+      .suggestions {
         display: flex;
-        align-items: center;
-        gap: 12px;
-        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 8px;
+        font-size: 15px;
+        color: #bfbfbf;
+      }
+
+      .suggestion-item {
+        cursor: pointer;
+        color: #7ecfff;
+        transition: color 0.2s ease;
+      }
+
+      .suggestion-item:hover {
         color: #00b5ff;
-        font-weight: bold;
+      }
+
+      .loading,
+      .evidence-report {
+        background: rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 4px 20px rgba(0, 181, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.08);
       }
 
       .loading-spinner {
@@ -110,141 +148,71 @@
         }
       }
 
-      h1 {
-        font-size: 26px;
-        font-weight: 600;
-        text-align: center;
-        margin-bottom: 10px;
-        color: #ffffff;
-      }
-
-      input[type="text"] {
-        padding: 16px 20px;
-        font-size: 16px;
-        border: 1px solid #2c2c2e;
-        border-radius: 14px;
-        background-color: #1a1a1c;
-        color: #fff;
-        outline: none;
-        transition: all 0.3s ease;
-      }
-
-      input[type="text"]:focus {
-        border-color: #00b5ff;
-        box-shadow: 0 0 0 2px rgba(0, 181, 255, 0.2);
-      }
-
-      button {
-        padding: 14px;
-        font-size: 16px;
-        font-weight: 500;
-        background-color: #00b5ff;
-        color: white;
-        border: none;
-        border-radius: 12px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-      }
-
-      button:hover {
-        background-color: #0094d8;
-      }
-
       .loading {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid #2c2c2e;
-        border-radius: 12px;
-        padding: 14px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        justify-content: center;
+        color: #00b5ff;
         font-weight: 500;
-        color: #00b5ff;
-        text-align: center;
-      }
-
-      .evidence-report {
-        background: rgba(255, 255, 255, 0.08);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        border-radius: 16px;
-        padding: 24px;
-        margin-top: 20px;
-        color: #e6e6e6;
-        font-family: "Inter", sans-serif;
-        text-align: left;
-        overflow: hidden;
-      }
-
-      .evidence-report .section-title {
-        color: #00b5ff;
-        margin: 20px 0 10px;
-        padding-left: 12px;
-        border-left: 4px solid #00b5ff;
-        font-weight: 600;
-        font-size: 18px;
-        text-align: left;
-      }
-
-      .evidence-item {
-        background: rgba(255, 255, 255, 0.04);
-        backdrop-filter: blur(6px);
-        border-left: 4px solid #00b5ff;
-        padding: 16px;
-        border-radius: 10px;
-        margin-bottom: 12px;
-        color: #e6e6e6;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      }
-
-      .evidence-item:hover {
-        background: #222831;
-        cursor: pointer;
-      }
-
-      .reference {
-        font-size: 0.85em;
-        color: #aaa;
-        margin-top: 10px;
-      }
-
-      .conclusion-box {
-        background-color: #393e46;
-        border-left: 4px solid #00b5ff;
-        padding: 20px;
-        border-radius: 12px;
-        margin-top: 30px;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Medical Evidence Checker</h1>
+      <h1 class="quintessential-regular">Medical Evidence Checker</h1>
+      <div class="subtitle lubrifont">
+        Ask any medical question or claim — we’ll check what peer-reviewed
+        science has to say. Built to help users cut through myths and
+        misinformation using real, citable studies.
+      </div>
 
-      <div class="search-box">
+      <div class="search-box lubrifont">
         <input
           type="text"
           id="queryInput"
-          placeholder="Enter a medical question or claim..."
+          placeholder="e.g. Should I get my child vaccinated?"
         />
         <button class="search-btn" onclick="submitQuery()">Search</button>
       </div>
 
-      <div class="loading glossy-card" id="loading" style="display: none">
-        <div class="loading-spinner"></div>
-        <div class="loading-text">
-          Analyzing medical evidence… <span id="elapsedTime">0.0</span>s elapsed
+      <div class="suggestions lubrifont">
+        <div
+          class="suggestion-item"
+          onclick="fillQuery('Should I get my child vaccinated?')"
+        >
+          💉 Should I get my child vaccinated?
+        </div>
+        <div
+          class="suggestion-item"
+          onclick="fillQuery('Does soy protein improve cholesterol levels?')"
+        >
+          🌱 Does soy protein improve cholesterol levels?
+        </div>
+        <div
+          class="suggestion-item"
+          onclick="fillQuery('Are energy drinks harmful for teenagers?')"
+        >
+          ⚡ Are energy drinks harmful for teenagers?
         </div>
       </div>
 
-      <div
-        class="evidence-report glossy-card"
-        id="responseBox"
-        style="display: none"
-      ></div>
+      <div class="loading" id="loading" style="display: none">
+        <div class="loading-spinner"></div>
+        <div>Analyzing research... <span id="elapsedTime">0.0</span>s</div>
+      </div>
+
+      <div class="evidence-report" id="responseBox" style="display: none"></div>
     </div>
 
     <script>
       let timerInterval;
       let startTime;
+
+      function fillQuery(text) {
+        document.getElementById("queryInput").value = text;
+        submitQuery();
+      }
 
       async function submitQuery() {
         const query = document.getElementById("queryInput").value.trim();
@@ -258,7 +226,6 @@
         loading.style.display = "flex";
         elapsedTime.textContent = "0.0";
 
-        // Start timer
         startTime = Date.now();
         timerInterval = setInterval(() => {
           const seconds = ((Date.now() - startTime) / 1000).toFixed(1);
@@ -266,28 +233,27 @@
         }, 100);
 
         try {
-          const res = await fetch("https://semantra-s9mw.onrender.com/query", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ query }),
-          });
+          const res = await fetch(
+            "https://semantra-s9mw.onrender.com/static/",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ query }),
+            }
+          );
 
           const data = await res.json();
-
           clearInterval(timerInterval);
           loading.style.display = "none";
           responseBox.style.display = "block";
 
-          const formattedResponse = formatResponse(data?.answer || "");
-          responseBox.innerHTML = formattedResponse;
+          const formatted = formatResponse(data?.answer || "");
+          responseBox.innerHTML = formatted;
         } catch (err) {
           clearInterval(timerInterval);
           loading.style.display = "none";
           responseBox.style.display = "block";
-          responseBox.innerHTML = `
-      <div class="evidence-item" style="color: #e74c3c">
-        Error: ${err.message}
-      </div>`;
+          responseBox.innerHTML = `<div style="color:#e74c3c;">Error: ${err.message}</div>`;
         }
       }
 

@@ -1,3 +1,9 @@
+#### Version update : Semantra v2.0
+
+Switching from Weaviate to Qdrant **reduced average response** latency by **over 40%**, resulting in a smoother UX and faster evidence generation.
+
+🔗 Live Demo: [Semantra](https://semantra-s9mw.onrender.com/static/)
+
 # Semantra
 
 An AI-powered tool to assist users in verifying and understanding medical queries. By leveraging advanced NLP techniques, Semantra aims to make research-backed knowledge readily available so as to combat the increasing dangers of medical misinformation.
@@ -9,8 +15,6 @@ Currently, Semantra focuses on addressing queries from:
 - vaccines, in general
 
 #### As of May 2025, Semantra works on data extracted from over 150+ open-access research papers, collected from various scientific websites,i.e. ScienceDirect and arXiv.org
-
-🔗 Live Demo: [Semantra](https://semantra-s9mw.onrender.com/static/)
 
 ## Features
 
@@ -56,7 +60,7 @@ The website is almost ready to be used locally however there's one step left. Ki
 
 - **[FastAPI](https://fastapi.tiangolo.com/)** – High-performance Python web framework
 - **[Uvicorn](https://www.uvicorn.org/)** – ASGI server for serving FastAPI
-- **[Weaviate](https://weaviate.io/)**– Vector database for semantic similarity search
+- **[Weaviate](https://qdrant.tech/documentation/)**– Rust-based vector database for semantic similarity search
 - **[Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)** – Open-weight LLM for generating AI-based medical responses
 - Python libraries:
   - `requests`, `pandas`, `scikit-learn`, `uuid`, `json`, etc.

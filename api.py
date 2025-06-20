@@ -33,7 +33,7 @@ async def handle_query(data: Query):
     results = search_engine.search_medical_claims(
         query=query,
         top_k=10,
-        certainty_threshold=0.65
+        certainty_threshold=0.7
     )
     t1=time.time()
     print("time slot1:",t1)

@@ -1,9 +1,12 @@
 #most imp python file to perform semantic search
-import weaviate, json 
+import json 
+from qdrant_client import QdrantClient
+from qdrant_client.http.models import Filter, FieldCondition, MatchValue
 import logging, os,requests, torch
 from transformers import AutoTokenizer
 from adapters import AutoAdapterModel
 from typing import List, Dict, Any
+
 
 from dotenv import load_dotenv
 
@@ -14,21 +17,19 @@ load_dotenv(override=True)
 logging.basicConfig(level=logging.INFO)
 logger=logging.getLogger(__name__)
 
-# Load Weaviate client
-print("Connecting to Weaviate at:", os.getenv("WEAVIATE_URL"))
-client = weaviate.Client(
-    url=os.getenv("WEAVIATE_URL"),
-    auth_client_secret=weaviate.auth.AuthApiKey(api_key=os.getenv("WEAVIATE_API")),
-    startup_period=30
-)
-
 class SemanticSearchClass:
-    def __init__(self):  
-        #self is a param which is reference to curr instance of class
-        # __init__() fn automatically initiliazes object attributes when obj is made
-        self.device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.weaviate_client = self._init_weaviate_client()
-        self.tokenizer , self.model=self._load_model()
+    # def __init__(self):  
+    #     #self is a param which is reference to curr instance of class
+    #     # __init__() fn automatically initiliazes object attributes when obj is made
+    #     self.qdrant_client = self._init_qdrant_client()
+    #     self.tokenizer, self.model = self._load_model()
+    #     self.collection_name = "chunk_data"
+    def __init__(self):
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # ✅ define this first
+        self.qdrant_client = self._init_qdrant_client()
+        self.tokenizer, self.model = self._load_model()
+        self.collection_name = "chunk_data"
+
 
     #load model
     def _load_model(self):
@@ -38,17 +39,11 @@ class SemanticSearchClass:
         return tokenizer, model.to(self.device)
 
     #starting the client
-    def _init_weaviate_client(self)->weaviate.Client:
-        try:
-            client=weaviate.Client(url=os.getenv("WEAVIATE_URL"),
-            auth_client_secret=weaviate.auth.AuthApiKey(api_key=os.getenv("WEAVIATE_API")))
-            if client.is_ready():
-                
-                return client
-        except Exception as e:
-            logger.error("Failed operation to initiate conncetion with client")
-            raise
-    
+    def _init_qdrant_client(self) -> QdrantClient:
+        return QdrantClient(
+            url=os.getenv("QDRANT_URL"),
+            api_key=os.getenv("QDRANT_API")
+        )
     #generate embedding
     def generate_input_embedding(self, query: str) -> List[float]:
         inputs=self.tokenizer(query, padding=True,
@@ -68,33 +63,33 @@ class SemanticSearchClass:
         certainty_threshold: float = 0.7
     ) -> List[Dict[str, Any]]:
         try:
-            query_vector = self.generate_input_embedding(query)  
-            result = self.weaviate_client.query.get(
-                "ChunkData",
-                ["text", "filename", "page", "_additional {certainty}"]
-            ).with_near_vector({
-                "vector": query_vector,
-                "certainty": certainty_threshold
-            }).with_limit(top_k).do()
+            query_vector = self.generate_input_embedding(query)
+            results = self.qdrant_client.search(
+            collection_name=self.collection_name,
+            query_vector=query_vector,
+            limit=top_k,
+            with_payload=True
+            )
 
-            return self.search_results(result)
+            return self.search_results(results, certainty_threshold)
         except Exception as e:
             logger.error(f"Search failed: {str(e)}")
             return []
     
     #present results
 
-    def search_results(self, raw_res:Dict)->List[Dict[str,Any]]:
-        items = raw_res.get("data", {}).get("Get", {}).get("ChunkData", [])
-        
-        return [{
-            "text": item["text"],
-            "source": item["filename"],
-            "page": item["page"],
-            "confidence": item["_additional"]["certainty"],
-            "full_text": item["text"]
-        } for item in items]
-    
+    def search_results(self, raw_hits: List[Dict[str, Any]], score_threshold: float) -> List[Dict[str, Any]]:
+        return [
+            {
+                "text": hit.payload["text"],
+                "source": hit.payload["filename"],
+                "page": hit.payload["page"],
+                "confidence": hit.score,
+                "full_text": hit.payload["text"]
+            }
+            for hit in raw_hits if hit.score >= score_threshold
+        ]
+
     def generate_answer(self, query, search_results: list)->str:
         evidence="\n\n".join([
            f"Source: {chunk['source']} (Page {chunk['page']})\n"
@@ -133,9 +128,13 @@ class SemanticSearchClass:
                 "frequency_penalty": 0
             }
         )
-        return res.json()["choices"][0]["message"]["content"]
-        
+    
 
+        return res.json()["choices"][0]["message"]["content"]
+
+
+###################################################
+# Uncomment main() to run application in CLI and run `python main.py`
 
 # def main():
 #     search_engine=SemanticSearchClass()
@@ -158,12 +157,13 @@ class SemanticSearchClass:
 #                 print("\nNo relevant evidence found in database")
 #                 continue
             
-#             print(f"\nFound {len(results)} relevant results:")
-#             # for idx, result in enumerate(results, 1):
-#             #     print(f"\nResult {idx}:")
-#             #     print(f"Source: {result['source']} (Page {result['page']})")
-#             #     print(f"Confidence: {result['confidence']:.2%}")
-#             #     print(f"Excerpt: {result['text'][:200]}...")
+#             # print(f"\nFound {len(results)} relevant results:")
+#             for idx, result in enumerate(results, 1):
+#                 # print(f"\nResult {idx}:")
+#                 # print(f"Source: {result['source']} (Page {result['page']})")
+#                 # print(f"Confidence: {result['confidence']:.2%}")
+#                 print("Excerpt:", highlight(result['text'][:300], query))  # highlight query words
+
             
 #             mistral_response=search_engine.generate_answer(query,results)
 #             # print("In conclusion: ")
