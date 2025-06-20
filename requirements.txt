@@ -42,4 +42,4 @@ typing_extensions==4.13.2
 urllib3==2.4.0
 uvicorn==0.34.2
 validators==0.34.0
-weaviate-client==3.26.7
+qdrant-client>=1.6.5

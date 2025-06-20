@@ -1,6 +1,6 @@
 #### Version update : Semantra v2.0
 
-Switching from Weaviate to Qdrant **reduced average response** latency by **over 40%**, resulting in a smoother UX and faster evidence generation.
+Migrating from Weaviate to Qdrant **reduced average response** latency by **over 40%**, resulting in a smoother UX and faster evidence generation.
 
 🔗 Live Demo: [Semantra](https://semantra-s9mw.onrender.com/static/)
 
