@@ -1,3 +1,9 @@
+#### Version update : Semantra v2.0
+
+Migrating from Weaviate to Qdrant **reduced average response** latency by **over 40%**, resulting in a smoother UX and faster evidence generation.
+
+🔗 Live Demo: [Semantra](https://semantra-s9mw.onrender.com/static/)
+
 # Semantra
 
 An AI-powered tool to assist users in verifying and understanding medical queries. By leveraging advanced NLP techniques, Semantra aims to make research-backed knowledge readily available so as to combat the increasing dangers of medical misinformation.
@@ -9,8 +15,6 @@ Currently, Semantra focuses on addressing queries from:
 - vaccines, in general
 
 #### As of May 2025, Semantra works on data extracted from over 150+ open-access research papers, collected from various scientific websites,i.e. ScienceDirect and arXiv.org
-
-🔗 Live Demo: [Semantra](https://semantra-s9mw.onrender.com/static/)
 
 ## Features
 
@@ -48,7 +52,7 @@ pip install -r requirements.txt
 uvicorn api:app --reload
 ```
 
-The website is almost ready to be used locally however there's one step left. Kindly check out the [Notes](#Notes-) section.
+The website is almost ready to be used locally however there's one step left. Kindly check out the [Notes](#notes-) section.
 
 ## 🛠️ Tech Stack
 
@@ -56,7 +60,7 @@ The website is almost ready to be used locally however there's one step left. Ki
 
 - **[FastAPI](https://fastapi.tiangolo.com/)** – High-performance Python web framework
 - **[Uvicorn](https://www.uvicorn.org/)** – ASGI server for serving FastAPI
-- **[Weaviate](https://weaviate.io/)**– Vector database for semantic similarity search
+- **[Weaviate](https://qdrant.tech/documentation/)**– Rust-based vector database for semantic similarity search
 - **[Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)** – Open-weight LLM for generating AI-based medical responses
 - Python libraries:
   - `requests`, `pandas`, `scikit-learn`, `uuid`, `json`, etc.
@@ -84,9 +88,3 @@ The website is almost ready to be used locally however there's one step left. Ki
 ```
 
 - If you're using the Render free tier, the server may spin down due to inactivity. This project uses a GitHub Actions CI/CD workflow to automatically ping the backend every 14 minutes and keep it alive.
-
-
-## Future plannings ⚙️⚙️
-- Add more open-access articles on existing fields
-- Broaden the scope of Semantra to women health
-  
