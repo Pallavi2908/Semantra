@@ -68,4 +68,4 @@ def generate_embeddings(input_json: str, output_json: str):
 
 #check that this runs only when you run embeddings.py directly and NOT as a module being imported in some other script
 if __name__ == "__main__":
-    generate_embeddings("processes.json", "embeddings.json")
+    generate_embeddings("processes.json", "embeddingsJuly.json")

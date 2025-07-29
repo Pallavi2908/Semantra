@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 from uuid import uuid4
 
 COLLECTION_NAME = "chunk_data"
-DATA_PATH = "merged_chunks.json"
+DATA_PATH = "final_Jul.json"
 load_dotenv()
 
 def get_qdrant_client():
@@ -26,26 +26,33 @@ def load_data():
 
 def convert_to_points(data):
     points = []
+    for i, item in enumerate(data):
+        if not item.get("embedding") or not isinstance(item["embedding"], list):
+            print(f"❌ Skipping item {i} — Missing or invalid 'embedding'")
+            continue
 
-    for item in data:
-        if not item.get("embedding") or not item.get("text"):
-            continue  # skip incomplete data
+        if len(item["embedding"]) != 768:
+            print(f"❌ Skipping item {i} — Vector length is {len(item['embedding'])}, expected 768")
+            continue
 
         points.append(PointStruct(
             id=str(uuid4()),
             vector=item["embedding"],
             payload={
                 "chunk_id": item["chunk_id"],
-                "text": item["text"],
+                "text": item.get("text", ""),
                 "filename": item["filename"],
-                "page": item["page"]
+                "page": item.get("page", -1)
             }
         ))
 
+    print(f"🔎 convert_to_points → returning {len(points)} valid points")
     return points
 
 def upload(points):
     client = get_qdrant_client()
+    print("📡 Reached upload_points() call")
+
     client.upload_points(
         collection_name=COLLECTION_NAME,
         points=points,

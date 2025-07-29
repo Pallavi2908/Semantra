@@ -128,9 +128,21 @@ class SemanticSearchClass:
                 "frequency_penalty": 0
             }
         )
-    
+        try:
+            data = res.json()
+            if "choices" not in data:
+                print("🚨 ERROR: Unexpected API response")
+                print(data)  # Log the full JSON
+                return "Something went wrong. Check API key or endpoint."
 
-        return res.json()["choices"][0]["message"]["content"]
+            return data["choices"][0]["message"]["content"]
+
+        except Exception as e:
+            print(f"🚨 Failed to parse response: {e}")
+            print("Raw response:", res.text)
+            return "Model failed to respond properly."
+
+        
 
 
 ###################################################
@@ -151,7 +163,7 @@ class SemanticSearchClass:
 #             results = search_engine.search_medical_claims(
 #                     query,
 #                     top_k=10,
-#                     certainty_threshold=0.4
+#                     certainty_threshold=0.5
 #                 )      
 #             if not results:
 #                 print("\nNo relevant evidence found in database")
@@ -162,7 +174,7 @@ class SemanticSearchClass:
 #                 # print(f"\nResult {idx}:")
 #                 # print(f"Source: {result['source']} (Page {result['page']})")
 #                 # print(f"Confidence: {result['confidence']:.2%}")
-#                 print("Excerpt:", highlight(result['text'][:300], query))  # highlight query words
+#                 print("Excerpt:", result['text'][:300], query)  # highlight query words
 
             
 #             mistral_response=search_engine.generate_answer(query,results)
