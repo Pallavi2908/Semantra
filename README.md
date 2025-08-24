@@ -3,6 +3,15 @@
 Migrating from Weaviate to Qdrant **reduced average response** latency by **over 40%**, resulting in a smoother UX and faster evidence generation.
 
 🔗 Live Demo: [Semantra](https://semantra-s9mw.onrender.com/static/)
+> ## 🚀 **Big Update Incoming!**
+> 
+> I'm currently **revamping the entire project** into a **JS-based tech stack**,  
+> along with a brand-new **UI upgrade** packed with exciting features!  
+>
+> See you again, in October :)
+> 
+> 🎯 **Semantra v3.0.
+>  ETA: Mid-October 2025**
 
 # Semantra
 
