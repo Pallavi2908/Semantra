@@ -4,6 +4,16 @@ Migrating from Weaviate to Qdrant **reduced average response** latency by **over
 
 🔗 Live Demo: [Semantra](https://semantra-s9mw.onrender.com/static/)
 
+> ## 🚀 **Big Update Incoming!**
+> 
+> I'm currently **revamping the entire project** into a **JS-based tech stack**,  
+> along with a brand-new **UI upgrade** packed with exciting features!  
+>
+> See you again, in October :)
+> 
+> 🎯 **Semantra v3.0.
+>  ETA: Mid-October 2025**
+
 # Semantra
 
 An AI-powered tool to assist users in verifying and understanding medical queries. By leveraging advanced NLP techniques, Semantra aims to make research-backed knowledge readily available so as to combat the increasing dangers of medical misinformation.
