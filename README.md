@@ -7,11 +7,11 @@ Migrating from Weaviate to Qdrant **reduced average response** latency by **over
 > 
 > I'm currently **revamping the entire project** into a **JS-based tech stack**,  
 > along with a brand-new **UI upgrade** packed with exciting features!  
->
-> See you again, in October :)
+> As of now, major changes have been made in the backend side, a few tweaks in the UI remains
+> 
 > 
 > 🎯 **Semantra v3.0.
->  ETA: Mid-October 2025**
+>  ETA: Mid-September 2025**
 
 # Semantra
 
